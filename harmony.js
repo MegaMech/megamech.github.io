@@ -25,7 +25,7 @@ if(window.location.hash == "#musgen"){
       document.getElementById("load").style.fontSize = "48px";
       document.getElementById("load").style.lineHeight = "81px";
       document.getElementById("load").innerHTML = "connecting...";
-      socket = io.connect('http://149.56.12.48:8080');
+      socket = io.connect('http://35.185.213.7:8080');
       start = true;
       width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
       width = width - 50;
