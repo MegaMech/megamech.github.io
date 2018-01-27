@@ -149,8 +149,10 @@ button::-moz-focus-inner {
     border: 0
 }
 a:link {
-	color: rgb(133, 142, 209);	
-	
+	color: rgb(133, 142, 209);
+}
+a:visited {
+	color: rgb(133, 142, 209);
 }
 @media screen and (min-width: 768px) {
 }
