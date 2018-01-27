@@ -31,6 +31,16 @@ header Tcolor, .title2 Tcolor {
 	background-color: black;
 	display: none;
 }
+.background {
+	display: absolute;
+	min-height: 800px;
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-image: url("images/steinway2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .title, .title2 {
 	height: 100%;
 	width: 620px;
@@ -86,9 +96,6 @@ content {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	background-color: rgb(227, 225, 225);
-	background-image: url("images/steinway2.png");
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 table, th, td {
     	border: 1px solid dimgray;
