@@ -38,11 +38,11 @@ function menuPos() {
 	else {
 		if (window.scrollY >= 100) {
 			document.getElementsByTagName("menu")[0].style.position = "fixed";
-			document.getElementsByTagName("hiddenmargin")[0].style.display: "block";
+			document.getElementsByTagName("hiddenmargin")[0].style.display = "block";
 		}
 		else {
 			document.getElementsByTagName("menu")[0].style.position = "relative";
-			document.getElementsByTagName("hiddenmargin")[0].style.display: "none";
+			document.getElementsByTagName("hiddenmargin")[0].style.display = "none";
 		}
 	}
 }
