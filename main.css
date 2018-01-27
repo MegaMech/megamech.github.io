@@ -42,6 +42,9 @@ header Tcolor, .title2 Tcolor {
 	background-size: cover;
 	z-index: -1;
 }
+#backg {
+	background-image: url("images/steinway1.png") !important;	
+}
 .title, .title2 {
 	height: 100%;
 	width: 620px;
