@@ -96,7 +96,8 @@ content {
 	width: 100%;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	background-color: rgb(227, 225, 225);
+	color: white;
+	/*background-color: rgb(227, 225, 225);*/
 }
 table, th, td {
     	border: 1px solid dimgray;
