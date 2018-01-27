@@ -52,7 +52,7 @@ header Tcolor, .title2 Tcolor {
 	padding-left: 35px;
 	padding-bottom: 8px;
 	height: 80px;
-	color: white;
+	color: white !important;
 	text-decoration: none;
 }
 menu {
