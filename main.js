@@ -33,6 +33,7 @@ xhr.send();
 }
 function menuPos() {
 	if (window.innerWidth <= 768) {
+		document.getElementsByClassName("hiddenmargin")[0].style.display = "none";
 		return true;
 	}
 	else {
