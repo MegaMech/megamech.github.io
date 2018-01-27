@@ -28,8 +28,8 @@ header Tcolor, .title2 Tcolor {
 .hiddenmargin {
 	height: 45px;
 	width: 100%;
-	background-color: black;
 	display: none;
+	visibility: hidden;
 }
 .background {
 	position: absolute;
