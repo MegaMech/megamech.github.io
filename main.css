@@ -114,6 +114,7 @@ th {
 	background-color: rgb(5, 0, 98);	
 }
 footer {
+	display: table;
 	border-top: 2px solid black;
 	height: 50px;
 	width: 100%;
