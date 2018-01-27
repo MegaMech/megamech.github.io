@@ -36,9 +36,13 @@ function menuPos() {
 		return true;
 	}
 	else {
-		if (window.scrollY >= 100) {document.getElementsByTagName("menu")[0].style.position = "fixed";}
+		if (window.scrollY >= 100) {
+			document.getElementsByTagName("menu")[0].style.position = "fixed";
+			document.getElementsByTagName("hiddenmargin")[0].style.display: block;
+		}
 		else {
 			document.getElementsByTagName("menu")[0].style.position = "relative";
+			document.getElementsByTagName("hiddenmargin")[0].style.display: none;
 		}
 	}
 }
