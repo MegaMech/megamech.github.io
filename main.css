@@ -87,6 +87,8 @@ content {
 	padding-bottom: 1px;
 	background-color: rgb(227, 225, 225);
 	background-image: url("images/steinway2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 table, th, td {
     	border: 1px solid dimgray;
