@@ -32,7 +32,7 @@ header Tcolor, .title2 Tcolor {
 	display: none;
 }
 .background {
-	display: absolute;
+	position: absolute;
 	min-height: 800px;
 	width: 100%;
 	padding-top: 1px;
@@ -40,6 +40,7 @@ header Tcolor, .title2 Tcolor {
 	background-image: url("images/steinway2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	z-index: -1;
 }
 .title, .title2 {
 	height: 100%;
