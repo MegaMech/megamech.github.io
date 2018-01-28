@@ -101,7 +101,15 @@ content {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
 	/*background-color: rgb(227, 225, 225);*/
+}
+#content1 {
+	background-image: url("images/steinway2.png");
+}
+#content2 {
+	background-image: url("images/steinway1.png");	
 }
 table, th, td {
     	border: 1px solid dimgray;
