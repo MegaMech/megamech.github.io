@@ -43,7 +43,8 @@ header Tcolor, .title2 Tcolor {
 	z-index: -1;
 }
 #backg {
-	background-image: url("images/steinway1.png") !important;	
+	background-image: url("images/steinway1.png") !important;
+	display: block;
 }
 .title, .title2 {
 	height: 100%;
