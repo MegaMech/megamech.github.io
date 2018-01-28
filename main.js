@@ -25,6 +25,8 @@ function menu(selection) {
 	a = this.responseXML;
 	document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].innerHTML;
 	console.log(this.responseXML.getElementsByClassName("loadedcontent")[0]);
+	console.log(this.responseXML.getElementsByTagName("body")[0]);
+	console.log(this.responseXML.getElementsByClassName("loadedcontent_b")[0]);
 }
 window.location.hash = selection;
 xhr.open("GET", selection+".html");
