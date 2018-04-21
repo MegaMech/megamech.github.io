@@ -109,6 +109,7 @@ content {
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 99999999999;
+	font-size: 35px;
 }
 #content1 {
 	background-image: url("images/steinway2.png");
