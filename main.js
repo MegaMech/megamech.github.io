@@ -49,4 +49,7 @@ function menuPos() {
 		}
 	}
 }
+function arrow() {
+	window.scrollTo(500, 0);
+}
 window.addEventListener("scroll", menuPos);
