@@ -121,9 +121,11 @@ content {
 }
 #content1 {
 	background-image: url("images/steinway2.png");
+	padding-left: 52px;
 }
 #content2 {
-	background-image: url("images/steinway1.png");	
+	background-image: url("images/steinway1.png");
+	padding-left: 52px;
 }
 table, th, td {
     	border: 1px solid dimgray;
