@@ -24,8 +24,10 @@ function menu(selection) {
 	xhr.onload = function() {
 	a = this.responseXML;
 	document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[0].innerHTML;
-	document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
-	console.log(this.responseXML.getElementsByTagName("body")[0].innerHTML);
+	if (this.responseXML.getElementsByTagName("body")[0].childNodes[2] != null) {
+		document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
+	}
+		console.log(this.responseXML.getElementsByTagName("body")[0].innerHTML);
 		console.log(this.responseXML.getElementsByTagName("body")[0].childNodes[3].innerHTML);
 		console.log(this.responseXML.getElementsByTagName("body")[0].childNodes[4].innerHTML);
 }
