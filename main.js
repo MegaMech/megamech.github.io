@@ -24,7 +24,7 @@ function menu(selection) {
 	xhr.onload = function() {
 	a = this.responseXML;
 	document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].innerHTML;
-	document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByClassName("loadedcontent_b")[0].innerHTML;
+	document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[5].innerHTML;
 	console.log(this.responseXML.getElementsByTagName("body")[0].innerHTML);
 }
 window.location.hash = selection;
