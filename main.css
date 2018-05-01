@@ -118,8 +118,8 @@ content {
 	-o-user-select: none;
 	user-select: none;
 	z-index: 99999999999;
-	-webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
-        transition: color 2s; /* For modern browsers */
+	-webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+        transition: color 1s; /* For modern browsers */
 }
 .arrow:hover {
 	color: rgb(5, 0, 98);
