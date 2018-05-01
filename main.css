@@ -123,7 +123,7 @@ content {
         transition: color 2s; /* For modern browsers */
 }
 .arrow:hover {
-	rgb(5, 0, 98);
+	color: rgb(5, 0, 98);
 }
 #content1 {
 	background-image: url("images/steinway2.png");
