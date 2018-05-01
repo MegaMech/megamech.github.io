@@ -136,6 +136,8 @@ content {
 #highlighter {
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 table, th, td {
     	border: 1px solid dimgray;
