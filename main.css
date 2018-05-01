@@ -120,8 +120,8 @@ content {
 	z-index: 99999999999;
 	-webkit-transition: color 0.5s; /* For Safari 3.0 to 6.0 */
         transition: color 0.5s; /* For modern browsers */
-	background-color: rgba(0, 0, 0, 0.8);
-	border-radius: 15px;
+	background-color: rgba(64, 64, 64, 1);
+	border-radius: 7px;
 }
 .arrow:hover {
 	color: rgb(5, 0, 98);
