@@ -99,6 +99,7 @@ content {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	color: white;
+	background-color: gray !important;
 	font-family: "Arial";
 	background-repeat: no-repeat;
 	background-size: cover;
