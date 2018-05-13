@@ -52,6 +52,6 @@ function menuPos() {
 	}
 }
 function arrow() {
-	window.scrollTo(0, 700);
+	window.scrollTo(0, 800);
 }
 window.addEventListener("scroll", menuPos);
