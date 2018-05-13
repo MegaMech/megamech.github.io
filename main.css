@@ -96,8 +96,6 @@ menu img {
 content {
 	display: block;
 	min-height: 800px;
-	padding-top: 1px;
-	padding-bottom: 1px;
 	color: white;
 	background-color: gray !important;
 	font-family: "Arial";
@@ -131,7 +129,6 @@ content {
 }
 #content2 {
 	background-image: url("images/steinway1.png");
-	padding-left: 52px;
 }
 #highlighter {
 	background-color: rgba(0, 0, 0, 0.5);
