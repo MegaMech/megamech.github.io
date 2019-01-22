@@ -1,6 +1,4 @@
 window.onload = function() {
-	window.location.href = "http://alexwindsor.ca/vokabel.html";//DELETE LATER
-	return;//DELETE LATER
 	if (window.location.hash == "") {
 		menu('home');
 	}
