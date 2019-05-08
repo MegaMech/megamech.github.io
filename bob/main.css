@@ -21,6 +21,28 @@ background: -webkit-linear-gradient(0deg, rgba(217,217,217,1) 0%, rgba(228,228,2
 background: linear-gradient(0deg, rgba(217,217,217,1) 0%, rgba(228,228,228,1) 50%, rgba(255,255,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9d9d9",endColorstr="#ffffff",GradientType=1);
 }
+@media screen and (max-width: 800px)
+{
+    nav
+    {
+        height: 50px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    #logo
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    #Clogo
+    {
+        display: inline-block !important;
+    }
+}
 nav a
 {
         outline: none;
@@ -32,6 +54,7 @@ nav a
         text-decoration: none;
         color: #66006;
         padding: 50px 12px;
+        z-index: 100;
         -webkit-user-select: none;
         -khtml-user-select: none;
         -moz-user-select: none;
@@ -42,6 +65,33 @@ nav a
         -moz-user-drag: none;
         -o-user-drag: none;
         user-drag: none;
+
+}
+@media screen and (max-width: 800px)
+{
+    nav a
+    {
+        padding: 25px 8px;
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    #desktopLink
+    {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    #cellphoneLink
+    {
+        display: inline-block !important;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
 }
 nav a:link
 {
@@ -74,6 +124,80 @@ a.logoLink:hover
 {
     background-color: transparent !important;
 }
+@media screen and (max-width: 800px)
+{
+    .logoLink
+    {
+        display: block;
+        float: left;
+
+    }
+}
+@media screen and (max-width: 800px)
+{
+    #cellphoneTitle
+    {
+        display: block !important;
+        font-size: 19px;
+        color: #660060;
+        height: 49px;
+        width: 200px;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 1px;
+        cursor: default;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    #cellphoneMenu
+    {
+        display: block !important;
+        float: right;
+        margin-right: 16px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .cellphoneMenuPanel
+    {
+		display: block !important;
+		height: 0px;
+		width: 100%;
+		transition: height 0.2s;
+		overflow: hidden;
+        z-index: -1;
+        position: inherit;
+        background: rgb(255,255,255);
+background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#3e3e3e",GradientType=1);
+    }
+}
 .num
 {
     float: right;
@@ -83,11 +207,25 @@ a.logoLink:hover
     padding: 21px 20px;
     padding-right: 50px;
 }
+@media screen and (max-width: 800px)
+{
+    .num
+    {
+        display: none;
+    }
+}
 spacer
 {
         display: block;
         height: 80px;
         width: 100%;
+}
+@media screen and (max-width: 800px)
+{
+    spacer
+    {
+        height: 40px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
 }
 main
 {
@@ -100,13 +238,30 @@ main
     margin-right: auto;
     padding-bottom: 250px;
     font-size: 20px;
+    border-left: ridge;
+    border-right: 3px ridge;
+}
+@media screen and (max-width: 800px)
+{
+    main
+    {
+        max-width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        border: none;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    h1
+    {
+        font-size: 1.5em;
+    }
 }
 footer
 {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     color: white;
     font-size: 24px;
     -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
@@ -121,6 +276,21 @@ footer
 .foot
 {
     vertical-align: middle;
+}
+@media screen and (max-width: 800px)
+{
+    .foot
+    {
+        display: none !important; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .cellphoneFoot
+    {
+        display: table-cell !important; /* The width is 100%, when the viewport is 800px or smaller */
+        text-align: center;
+    }
 }
 a:link
 {

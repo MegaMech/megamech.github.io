@@ -6,22 +6,17 @@
     	<meta name="theme-color" content="#660066" />
     	<title>Northern Sky's  Purple Martin Colony</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script>
-        //Sets table footer width to equal main content width.
-        window.onload = function()
-        {
-        document.getElementsByClassName("fTable")[0].width = document.getElementsByTagName("main")[0].offsetWidth;
-        }
-    </script>
+    <script src="main.js"></script>
 </head>
 <body>
 <nav>
-    <a class="logoLink" href="index.html" ondragstart="dragStart(e)" style="display: inline-block; padding-top: 7px; padding-bottom: 0;" ondragstart="dragStart(e)" align="middle"><img src="images/logo.png" draggable="false"/></a>
-    <a href="colony.html" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Colony</a>
-    <a href="bungalows.html" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Bungalows</a>
-    <a href="care.html" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Care</a>
-    <a href="index.html" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Contact</a>
-        <div class="num" href="index.html" ondragstart="dragStart(e)" align="middle">(780) 352-1187</div>
+    <a class="logoLink" href="index.html" ondragstart="dragStart(e)" style="display: inline-block; padding-top: 7px; padding-bottom: 0;" ondragstart="dragStart(e)" align="middle"><img id="logo" src="images/logo.png" draggable="false"/><img id="Clogo" src="images/birdhouse.png" width="80" draggable="false" style="display: none;"/></a><a href="colony.html" id="desktopLink" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Colony</a><a href="bungalows.html" id="desktopLink" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Bungalows</a><a href="care.html" id="desktopLink" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Care</a><a href="index.html" id="desktopLink" ondragstart="dragStart(e)" style="display: inline-block;" align="middle">Contact</a>
+        <div class="num" href="index.html" ondragstart="dragStart(e)">(780) 352-1187</div>
+        <img src="images/menu.png" id="cellphoneMenu" onclick="menu()" style="display: none;" width="50"/>
+        <span id="cellphoneTitle" style="display: none;">Northern Sky's<br>Purple Martin Colony</span>
+        <div class="cellphoneMenuPanel" style="display: none;">
+    		<a href="colony.html" id="cellphoneLink" ondragstart="dragStart(e)" style="display: none; margin-top: 30px" align="middle">Colony</a><br><a href="bungalows.html" id="cellphoneLink" ondragstart="dragStart(e)" style="display: none;" align="middle">Bungalows</a><br><a href="care.html" id="cellphoneLink" ondragstart="dragStart(e)" style="display: none;" align="middle">Care</a><br><a href="index.html" id="cellphoneLink" ondragstart="dragStart(e)" style="display: none;" align="middle">Contact</a>
+        </div>
 </nav>
 <script>
     //Removes drag function from navigation bar on firefox
@@ -94,7 +89,8 @@
 
 </body>
 <footer>
-    <table class="fTable" style="margin-left: auto; margin-right: auto; margin-bottom: 0; margin-top: 0; height: 200px;">
+    <table class="fTable" style="margin-left: auto; margin-right: auto; margin-bottom: 0; margin-top: 0; height: 200px; table-layout: fixed;
+width: 80%;">
     <tbody>
     <tr>
 
@@ -117,7 +113,13 @@
     <td class="foot" align="right">
         Website designed by<br><a href="http://alexwindsor.ca">Alex Windsor</a>
     </td>
-
+    <!-- Cellphone footer -->
+    <td class="cellphoneFoot" style="display: none;" align="right">
+        Northern Sky's <br>Purple Martin Colony<br>
+        © 2000-<script type="text/javascript">document.write(new Date().getFullYear());</script>, Bob Buskas<br><br>
+        <a href="mailto:bobbuskas@incentre.net" class="whiteLink">bobbuskas@incentre.net</a>
+        <br>(780) 352-1187
+    </td>
     </tr>
     </tbody>
     </table>
