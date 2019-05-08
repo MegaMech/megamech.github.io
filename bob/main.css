@@ -54,7 +54,6 @@ nav a
         text-decoration: none;
         color: #66006;
         padding: 40px 12px;
-        z-index: 100;
         -webkit-user-select: none;
         -khtml-user-select: none;
         -moz-user-select: none;
@@ -194,7 +193,6 @@ a.logoLink:hover
 		width: 100%;
 		transition: height 0.2s;
 		overflow: hidden;
-        z-index: -1;
         position: inherit;
         background: rgb(255,255,255);
         background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
