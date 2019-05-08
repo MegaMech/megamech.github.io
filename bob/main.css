@@ -91,7 +91,11 @@ nav a
         padding-top: 30px;
         padding-bottom: 30px;
         text-align: center;
-        outline: none !important;
+        outline: none;
+    }
+    #cellphoneLink a:active
+    {
+        outline: none;
     }
 }
 nav a:link
