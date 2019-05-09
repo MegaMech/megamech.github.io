@@ -52,7 +52,7 @@ nav a
         vertical-align: middle;
         font-weight: bold;
         text-decoration: none;
-        color: #66006;
+        color: #660060;
         padding: 40px 12px;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -87,14 +87,47 @@ nav a
     {
         display: inline-block !important;
         width: 100%;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         text-align: center;
+        color: #660060;
         outline: none;
+        text-decoration: none;
+    }
+    #cellphoneLink a
+    {
+        text-decoration: none;
+        box-shadow: none;
+        color: #660060;
+    }
+    a#cellphoneLink:link
+    {
+    }
+    a#cellphoneLink:visited
+    {
+    }
+    a#cellphoneLink:hover
+    {
+        box-shadow: none;
+    text-decoration: none;
+    }
+    a#cellphoneLink:active
+    {
+        -webkit-tap-highlight-color: transparent;
+        outline: none;
+        color: #660060;
+        box-shadow: none;
+        text-decoration: none;
+        background-color: #afafaf !important;
     }
     #cellphoneLink a:active
     {
+        -webkit-tap-highlight-color: transparent;
         outline: none;
+        color: #660060;
+        box-shadow: none;
+        text-decoration: none;
+        background-color: #afafaf !important;
     }
 }
 nav a:link
@@ -111,7 +144,7 @@ nav a:visited
 nav a:hover
 {
     text-decoration: none;
-    background-color: grey;
+    background-color: #afafaf;
 }
 nav a:active
 {
@@ -169,32 +202,48 @@ a.logoLink:hover
     #cellphoneMenu
     {
         display: block !important;
+        width: 50px;
+        height: 50px;
+        background-image: url("images/menu.png");
+        background-size: 50px;
         float: right;
         margin-right: 16px;
         cursor: pointer;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -o-user-select: none;
-        user-select: none;
-        -webkit-user-drag: none;
-        -khtml-user-drag: none;
-        -moz-user-drag: none;
-        -o-user-drag: none;
-        user-drag: none;
+        -webkit-tap-highlight-color: transparent;
+
     }
+}
+#cellphoneMenu:link
+{
+}
+#cellphoneMenu:visited
+{
+}
+#cellphoneMenu:hover
+{
+}
+#cellphoneMenu:active
+{
+    background-color: #afafaf !important;
 }
 @media screen and (max-width: 800px)
 {
     .cellphoneMenuPanel
     {
+        outline: none;
+        font-size: 30px;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: bold;
+        text-decoration: none;
+        color: #660060;
 		display: block !important;
 		height: 0px;
 		width: 100%;
 		transition: height 0.2s;
         z-index: 100;
 		overflow: hidden;
-        position: inherit;
+        position: fixed;
         background: rgb(255,255,255);
         background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
         background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
@@ -228,7 +277,7 @@ spacer
 {
     spacer
     {
-        height: 40px; /* The width is 100%, when the viewport is 800px or smaller */
+        height: 49px; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 main
