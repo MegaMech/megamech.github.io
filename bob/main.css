@@ -44,7 +44,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9d9d9",endCo
         -webkit-tap-highlight-color: transparent;
         padding-top: 6px;
     }
-    #Clogo:active
+    img#Clogo:active
     {
         background-color: #afafaf;
     }
