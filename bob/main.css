@@ -85,7 +85,7 @@ nav a
         -moz-user-drag: none;
         -o-user-drag: none;
         user-drag: none;
-
+        -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 800px)
 {
@@ -171,6 +171,7 @@ nav a:active
 {
     color: #660060;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 a.logoLink:link
 {
@@ -182,13 +183,17 @@ a.logoLink:hover
 {
     background-color: transparent !important;
 }
+a.logoLink:hover
+{
+    -webkit-tap-highlight-color: transparent;
+}
 @media screen and (max-width: 800px)
 {
     .logoLink
     {
         display: block;
         float: left;
-
+        -webkit-tap-highlight-color: transparent;
     }
 }
 @media screen and (max-width: 800px)
