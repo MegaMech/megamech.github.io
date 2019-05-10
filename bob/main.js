@@ -1,11 +1,12 @@
 
 //Sets table footer width to equal main content width.
+var x = window.matchMedia("(max-width: 800px)");
 window.onload = function()
 {
-    //@deprecated
-    //document.getElementsByClassName("fTable")[0].width = document.getElementsByTagName("main")[0].offsetWidth;
 
-
+    //var x = window.matchMedia("(max-width: 800px)")
+    myFunction(x);
+    x.addListener(myFunction);
     var menus = document.getElementsByClassName("cellphoneMenuPanel")[0];
 
 menus.style.height = "0px";
@@ -33,4 +34,22 @@ function preview(img)
     imgprev.onclick = function() {
       imgprev.style.display = "none";
     }
+}
+function myFunction() {
+    var imgs = document.getElementsByClassName("imgSpacer");
+    console.log("running");
+  if (x.matches) { // If media query matches
+
+    for (i=0; i<imgs.length; i++)
+    {
+    imgs[i].style.width = "100%";
+    imgs[i].style.height = document.getElementsByClassName("images")[i].height+"px";
+    }
+  } else {
+      for (i=0; i<imgs.length; i++)
+      {
+      document.getElementsByClassName("imgSpacer")[i].style.width = "0px";
+      document.getElementsByClassName("imgSpacer")[i].style.height = "0px";
+    }
+  }
 }
