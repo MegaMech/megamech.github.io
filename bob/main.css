@@ -41,6 +41,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9d9d9",endCo
     #Clogo
     {
         display: inline-block !important;
+        -webkit-tap-highlight-color: transparent;
+        padding-top: 6px;
+    }
+    #Clogo:active
+    {
+        background-color: #afafaf;
     }
 }
 nav a
