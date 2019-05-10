@@ -25,7 +25,7 @@ function preview(img)
 {
     var imgprev = document.getElementsByClassName("preview")[0];
     var attachedImage = document.getElementsByClassName("attachedImage")[0];
-    imgprev.style.display = "block";
+    imgprev.style.display = "table";
 
     attachedImage.src = img;
     console.log(img.src);
