@@ -21,3 +21,16 @@ function menu() {
     }
     return true;
 }
+function preview(img)
+{
+    var imgprev = document.getElementsByClassName("preview")[0];
+    var attachedImage = document.getElementsByClassName("attachedImage")[0];
+    imgprev.style.display = "block";
+
+    attachedImage.src = img;
+    console.log(img.src);
+
+    imgprev.onclick = function() {
+      imgprev.style.display = "none";
+    }
+}
