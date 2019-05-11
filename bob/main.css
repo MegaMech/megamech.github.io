@@ -5,7 +5,7 @@ body
     position: relative;
     min-height: 100vh;
     text-align: justify !important;
-    font-family: "Comic Sans MS";
+    font-family: 'Lato', sans-serif;
 }
 nav
 {
