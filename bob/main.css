@@ -340,6 +340,14 @@ p {
     padding-left: 10px;
     padding-right: 10px;
 }
+@media screen and (max-width: 800px)
+{
+    #mapper
+    {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
 .imgContentOne
 {
     float: left;
