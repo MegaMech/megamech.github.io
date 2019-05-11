@@ -106,6 +106,13 @@ nav a
 }
 @media screen and (max-width: 800px)
 {
+    .desktopLinkWrapper
+    {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 800px)
+{
     #desktopLink
     {
         display: none !important;
