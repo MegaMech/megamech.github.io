@@ -313,6 +313,7 @@ main
 {
     padding: 10px;
     padding-left: 15px;
+    padding-right: 15px;
     display: block;
     max-width: 80%;
     min-height: 700px;
