@@ -7,9 +7,9 @@ window.onload = function()
     //var x = window.matchMedia("(max-width: 800px)")
     spaceSetter(x);
     x.addListener(spaceSetter);
-    window.addEventListener("orientationchange", function() {
-    	spaceSetter()
-    }, false);
+    //window.addEventListener("orientationchange", function() {
+    //	spaceSetter()
+    //}, false);
 
     var menus = document.getElementsByClassName("cellphoneMenuPanel")[0];
     menus.style.height = "0px";
