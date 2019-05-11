@@ -5,8 +5,8 @@ window.onload = function()
 {
 
     //var x = window.matchMedia("(max-width: 800px)")
-    myFunction(x);
-    x.addListener(myFunction);
+    spaceSetter(x);
+    x.addListener(spaceSetter);
     var menus = document.getElementsByClassName("cellphoneMenuPanel")[0];
 
 menus.style.height = "0px";
@@ -35,7 +35,7 @@ function preview(img)
       imgprev.style.display = "none";
     }
 }
-function myFunction() {
+function spaceSetter() {
     var imgs = document.getElementsByClassName("imgSpacer");
     console.log("running");
   if (x.matches) { // If media query matches
