@@ -45,6 +45,10 @@ function spaceSetter() {
     {
     imgs[i].style.width = "100%";
     imgs[i].style.height = document.getElementsByClassName("images")[i].height+"px";
+    if (i == 4)
+    {
+        imgs[i].style.height = document.getElementsByClassName("images")[i].height+125+"px";
+    }
     }
   } else {
       for (i=0; i<imgs.length; i++)
