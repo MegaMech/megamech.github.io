@@ -4,6 +4,7 @@ body
     background-image: url("images/background.jpg");
     position: relative;
     min-height: 100vh;
+    text-align: justify !important;
 }
 nav
 {
@@ -437,12 +438,7 @@ user-select: none;
         font-size: 1.5em;
     }
 }
-h2
-{
-    color: #660060;
-    font-style: italic;
-}
-h3
+h3, h2
 {
     color: #660060;
     text-align: center;
