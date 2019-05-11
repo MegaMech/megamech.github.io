@@ -1,13 +1,5 @@
-
-//Sets table footer width to equal main content width.
-var x = window.matchMedia("(max-width: 800px)");
 window.onload = function()
 {
-
-    //var x = window.matchMedia("(max-width: 800px)")
-    spaceSetter(x);
-    x.addListener(spaceSetter);
-
     var menus = document.getElementsByClassName("cellphoneMenuPanel")[0];
     menus.style.height = "0px";
 
@@ -36,27 +28,6 @@ function preview(img)
     imgprev.onclick = function() {
       imgprev.style.display = "none";
     }
-}
-function spaceSetter() {
-    var imgs = document.getElementsByClassName("imgSpacer");
-  if (x.matches) { // If media query matches
-
-    for (i=0; i<imgs.length; i++)
-    {
-    imgs[i].style.width = "100%";
-    imgs[i].style.height = document.getElementsByClassName("images")[i].height+"px";
-    if (i == 4)
-    {
-        imgs[i].style.height = document.getElementsByClassName("images")[i].height+125+"px";
-    }
-    }
-  } else {
-      for (i=0; i<imgs.length; i++)
-      {
-      document.getElementsByClassName("imgSpacer")[i].style.width = "0px";
-      document.getElementsByClassName("imgSpacer")[i].style.height = "0px";
-    }
-  }
 }
 function footerLink()
 {
