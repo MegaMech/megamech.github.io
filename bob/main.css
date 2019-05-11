@@ -196,7 +196,7 @@ a.logoLink:hover
         display: block;
         float: left;
         -webkit-tap-highlight-color: transparent;
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
 }
 @media screen and (max-width: 800px)
