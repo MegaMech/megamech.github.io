@@ -355,14 +355,6 @@ p {
     padding-left: 10px;
     padding-right: 10px;
 }
-@media screen and (max-width: 800px)
-{
-    #mapper
-    {
-        margin-left: 2px !important;
-        margin-right: 5px !important;
-    }
-}
 .imgContentOne
 {
     float: left;
@@ -381,7 +373,6 @@ p {
         border-radius: 0px;
         padding: 0px;
         margin-right: 0px;
-
         left: 0px;
         margin: 0 !important;
         margin-bottom: 10px !important;
