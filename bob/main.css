@@ -359,8 +359,8 @@ p {
 {
     #mapper
     {
-        margin-left: 2px;
-        margin-right: 5px;
+        margin-left: 2px !important;
+        margin-right: 5px !important;
     }
 }
 .imgContentOne
