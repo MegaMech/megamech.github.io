@@ -246,15 +246,6 @@
     width: 100%;
   }
 }
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)}
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-}
 @media screen and (max-width: 800px)
 {
     h1
