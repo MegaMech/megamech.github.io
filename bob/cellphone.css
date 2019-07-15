@@ -1,20 +1,22 @@
-@media screen and (max-width: 800px)
+@media (orientation: portrait) {
+  #logoImg {
+    width: 80%;
+  }
+  #loadspin {
+      width: 5vw;
+  }
+}
+@media screen and (max-width: 853px)
 {
-    nav
+nav
     {
         height: 50px;
         font-size: 30px;
     }
-}
-@media screen and (max-width: 800px)
-{
     #logo
     {
         display: none;
     }
-}
-@media screen and (max-width: 800px)
-{
     #Clogo
     {
         display: inline-block !important;
@@ -39,32 +41,20 @@
         -webkit-tap-highlight-color: transparent;
         outline: none;
     }
-}
-@media screen and (max-width: 800px)
-{
     nav a
     {
         padding: 25px 8px;
         font-size: 32px;
     }
-}
-@media screen and (max-width: 800px)
-{
     .desktopLinkWrapper
     {
         display: none !important;
     }
-}
-@media screen and (max-width: 800px)
-{
-    #desktopLink
+    .desktopLink
     {
         display: none !important;
     }
-}
-@media screen and (max-width: 800px)
-{
-    #cellphoneLink
+    .cellphoneLink
     {
         display: inline-block !important;
         width: 100%;
@@ -75,24 +65,25 @@
         outline: none;
         text-decoration: none;
     }
-    #cellphoneLink a
+    .cellphoneMenuPanel a
     {
         text-decoration: none;
         box-shadow: none;
         color: #660060;
     }
-    a#cellphoneLink:link
+    .cellphoneMenuPanel a:link
     {
     }
-    a#cellphoneLink:visited
+    .cellphoneMenuPanel a:visited
     {
+        color: #660060;
     }
-    a#cellphoneLink:hover
+    .cellphoneMenuPanel a:hover
     {
         box-shadow: none;
     text-decoration: none;
     }
-    a#cellphoneLink:active
+    .cellphoneMenuPanel a:active
     {
         -webkit-tap-highlight-color: transparent;
         outline: none;
@@ -101,18 +92,6 @@
         text-decoration: none;
         background-color: #afafaf !important;
     }
-    #cellphoneLink a:active
-    {
-        -webkit-tap-highlight-color: transparent;
-        outline: none;
-        color: #660060;
-        box-shadow: none;
-        text-decoration: none;
-        background-color: #afafaf !important;
-    }
-}
-@media screen and (max-width: 800px)
-{
     .logoLink
     {
         display: block;
@@ -120,9 +99,6 @@
         -webkit-tap-highlight-color: transparent;
         margin-left: 0px !important;
     }
-}
-@media screen and (max-width: 800px)
-{
     #cellphoneTitle
     {
         display: block !important;
@@ -147,9 +123,6 @@
         -o-user-drag: none;
         user-drag: none;
     }
-}
-@media screen and (max-width: 800px)
-{
     #cellphoneMenu
     {
         display: block !important;
@@ -164,8 +137,6 @@
 
     }
 }
-@media screen and (max-width: 800px)
-{
     .cellphoneMenuPanel
     {
         outline: none;
@@ -189,107 +160,24 @@
         background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#3e3e3e",GradientType=1);
     }
-}
-@media screen and (max-width: 800px)
-{
-    .num
-    {
-        display: none;
-    }
-}
-@media screen and (max-width: 800px)
-{
     spacer
     {
-        height: 49px; /* The width is 100%, when the viewport is 800px or smaller */
+        height: 49px; /* The width is 100%, when the viewport is 853px or smaller */
     }
-}
-@media screen and (max-width: 800px)
-{
     main
     {
-        max-width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        max-width: 100%; /* The width is 100%, when the viewport is 853px or smaller */
         border: none;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-}
-@media screen and (max-width: 800px)
-{
-    .imgContentOne
-    {
-        width: 100% !important;
-        border: none;
-        border-radius: 0px;
-        padding: 0px;
-        margin-right: 0px;
-        left: 0px;
-        margin: 0 !important;
-        margin-bottom: 10px !important;
-    }
-}
-@media screen and (max-width: 800px)
-{
-    .imgContent
-    {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-        border: none;
-        border-radius: 0px;
-
-        left: 0px;
-        margin: 0 !important;
-        margin-bottom: 10px !important;
-    }
-}
-@media only screen and (max-width: 800px){
-  .attachedImage {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 800px)
-{
-    h1
-    {
-        font-size: 1.5em;
-    }
-}
-@media screen and (max-width: 800px)
-{
-    h3, h2
-    {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
-@media screen and (max-width: 800px)
-{
-    figure
-    {
-        display: block;
-        width: 100%;
-        margin: 0;
-        left: 0;
-    }
-}
-@media screen and (max-width: 800px)
-{
-    #botImage
-    {
-        position: relative !important;
-    }
-}
-@media screen and (max-width: 800px)
-{
     .foot
     {
-        display: none !important; /* The width is 100%, when the viewport is 800px or smaller */
+        display: none !important; /* The width is 100%, when the viewport is 853px or smaller */
     }
-}
-@media screen and (max-width: 800px)
-{
     .cellphoneFoot
     {
-        display: table-cell !important; /* The width is 100%, when the viewport is 800px or smaller */
+        display: table-cell !important; /* The width is 100%, when the viewport is 853px or smaller */
         text-align: center;
         font-size: 22px !important;
     }
