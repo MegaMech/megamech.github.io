@@ -156,6 +156,17 @@ p {
     padding-left: 10px;
     padding-right: 10px;
 }
+h3, h4 {
+    text-align: center;
+}
+.comic {
+    width: 800px;
+    height: 450px;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 footer
 {
     position: absolute;
