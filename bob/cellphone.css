@@ -1,6 +1,7 @@
 @media (orientation: portrait) {
   #logoImg {
     width: 80% !important;
+    margin-top: 25% !important;
   }
   #loadspin {
       width: 6vw !important;
