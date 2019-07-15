@@ -11,9 +11,7 @@ window.onload = function()
          document.getElementById("loadspin").style.opacity = 0;
          document.getElementById("logoImg").style.width = "450px";
          document.getElementById("logoImg").style.marginTop = "2%";
-         document.getElementById("particles-js").style.opacity = 0;
          setTimeout(function(){
-             document.getElementById("particles-js").style.display = "none";
              document.getElementsByTagName("body")[0].style.overflow = "auto";
              document.getElementsByTagName("nav")[0].style.zIndex = "1";
              document.getElementsByTagName("nav")[0].style.opacity = "1";
