@@ -19,6 +19,7 @@ window.onload = function()
              document.getElementById("contentDisplay").style.opacity = "1";
              document.getElementsByTagName("footer")[0].style.zIndex = "1";
              document.getElementsByTagName("footer")[0].style.opacity = "1";
+             document.getElementById("loadspin").remove();
          }, 1000);
 
      }, 1000);
