@@ -1,7 +1,6 @@
 body
 {
     margin: 0;
-    background-image: url("images/background.jpg");
     position: relative;
     min-height: 100vh;
     text-align: justify !important;
