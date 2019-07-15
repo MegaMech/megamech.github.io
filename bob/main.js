@@ -14,7 +14,7 @@ window.onload = function()
          document.getElementById("particles-js").style.opacity = 0;
          setTimeout(function(){
              document.getElementById("particles-js").style.display = "none";
-             document.getElementByClassName("body")[0].style.overflow = "auto";
+             document.getElementsByTagName("body")[0].style.overflow = "auto";
          }, 1000);
 
      }, 1000);
