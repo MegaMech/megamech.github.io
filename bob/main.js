@@ -15,6 +15,12 @@ window.onload = function()
          setTimeout(function(){
              document.getElementById("particles-js").style.display = "none";
              document.getElementsByTagName("body")[0].style.overflow = "auto";
+             document.getElementsByTagName("nav")[0].style.zIndex = "1";
+             document.getElementsByTagName("nav")[0].style.opacity = "1";
+             document.getElementById("contentDisplay").style.zIndex = "1";
+             document.getElementById("contentDisplay").style.opacity = "1";
+             document.getElementsByTagName("footer")[0].style.zIndex = "1";
+             document.getElementsByTagName("footer")[0].style.opacity = "1";
          }, 1000);
 
      }, 1000);

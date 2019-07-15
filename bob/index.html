@@ -17,9 +17,9 @@
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 853px)" href="cellphone.css"/>
     <script src="main.js"></script>
 </head>
-<body>
-    <div id="particles-js" style="z-index: 1000;">
-    <img id="logoImg" src="logo.png" draggable="false">
+<body id="particles-js">
+    
+
 <img id="loadspin" src="laserload.png" draggable="false">
 </div>
 </div>
@@ -36,12 +36,13 @@
     <a href="housing.html" class="cellphoneLink" style="display: none; margin-top: 15px" align="middle">Housing</a><br><a href="beginners.html" class="cellphoneLink" style="display: none; align="middle">Beginners</a><br><a href="care.html" class="cellphoneLink" style="display: none;" align="middle">Care</a><br><a href="gallery.html" class="cellphoneLink" style="display: inline-block;" align="middle">Gallery</a><a href="contact.html" class="cellphoneLink" style="display: none;" align="middle">Contact</a>
 </div>
 <main>
-    <img src="logo.png" width="450" style="display: block; margin-left: auto; margin-right: auto;">
+    <img id="logoImg" src="logo.png" draggable="false" width="450" style="display: block; margin-left: auto; margin-right: auto;">
+    <div id="contentDisplay" style="opacity: 0; z-index: -1; transition: opacity 0.2s linear;">
     <h2>Welcome to Andrew Stevens Art site!</h2>
     <p>Hello, my name is Andrew Stevens, welcome to my website. I host my collection of art here. I hope you have fun reading my works.</p>
     <h3>Daily Comic</h3>
     <div class="comic"></div>
-
+</div>
 </main>
 <footer>
     <table class="fTable" style="margin-left: auto; margin-right: auto; margin-bottom: 0; margin-top: 0; height: 231px; table-layout: fixed;
