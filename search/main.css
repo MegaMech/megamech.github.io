@@ -1,0 +1,60 @@
+#selection
+{
+    height: 150px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.craftingbar
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 111px;
+    width: 500px;
+}
+input
+{
+    height: 100px;
+    width: 350px;
+    font-size: 45px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 4px;
+}
+.wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    min-height: 100px;
+}
+#output
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    border: 2px solid;
+    font-size: 30px;
+}
+#output2
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    border: 2px solid;
+    font-size: 30px;
+}
+.searchButtons
+{
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.searchButtons:active
+{
+    padding-left: 21px;
+    padding-right: 19px;
+}
