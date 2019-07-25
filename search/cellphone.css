@@ -1,3 +1,10 @@
+body {
+    width: 100%;
+}
+.wrapper {
+    max-width: none !important;
+
+}
 .craftingbar, #selection, #output, #output2 {
     display: block !important;
     margin-left: auto;
@@ -13,4 +20,5 @@
 #output2 {
     margin-top: 10px;
     border-left: 4px solid #e3d3d3;
+    margin-bottom: 10px;
 }
