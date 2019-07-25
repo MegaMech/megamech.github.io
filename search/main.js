@@ -61,8 +61,11 @@ function mainSearch()
     for(i=0; i < elements.length; i++) {
         data.push(document.getElementsByClassName("elements")[i].getAttribute("data"));
     }
-    console.log(data.join());
-    var result2 = fuse2.search(data.join());
+
+    var joinData = ("'" + data.join("','") + "'");
+    console.log(joinData);
+    var result2 = fuse2.search(joinData);
+    console.log(result2);
     if (result2[0] == undefined) {out2.innerHTML = "<span style='width: 100%; margin-top: 20px; display: block; text-align: center;'>No items found</span>"; return;}
 
     out2.innerHTML = "";
