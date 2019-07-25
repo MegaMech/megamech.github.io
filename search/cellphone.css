@@ -3,6 +3,7 @@ body {
 }
 .wrapper {
     max-width: none !important;
+    margin: none !important;
 
 }
 .craftingbar, #selection, #output, #output2 {
