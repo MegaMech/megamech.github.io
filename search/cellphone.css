@@ -2,6 +2,13 @@ body
 {
     width: 100%;
 }
+#itemStats
+{
+    position: fixed !important;
+    width: 100%;
+    left: 0px !important;
+    top: 30vh !important;
+}
 .wrapper
 {
     max-width: none !important;
