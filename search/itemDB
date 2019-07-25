@@ -1,0 +1,72 @@
+const itemsa = [
+{
+    id: "12",
+    item: "Pickaxe",
+    mat: [
+        "100",
+        "101",
+        "102"
+        ]
+},
+{
+    id: "13",
+    item: "Sword",
+    mat: [
+        "103",
+        "104",
+        "105"
+        ]
+},
+{
+    id: "14",
+    item: "Hammer",
+    mat: [
+        "103",
+        "101",
+        "105"
+        ]
+},
+{
+    id: "15",
+    item: "Spanner",
+    mat: [
+        "103"
+        ]
+},
+{
+    id: "16",
+    item: "Club",
+    mat: [
+        "100",
+        "100",
+        "101"
+    ]
+}
+]
+
+const resourcesa = [
+{
+    id: "100",
+    item: "Rock"
+},
+{
+    id: "101",
+    item: "Stick"
+},
+{
+    id: "102",
+    item: "String"
+},
+{
+    id: "103",
+    item: "Steel"
+},
+{
+    id: "104",
+    item: "Handle"
+},
+{
+    id: "105",
+    item: "Rope"
+}
+]

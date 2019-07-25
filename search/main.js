@@ -70,6 +70,10 @@ function mainSearch()
     out2.innerHTML = "";
     for (i=0; i < result2.length; i++)
     {
-        out2.innerHTML += "<button class='searchButtons');'>"+result2[i].item+" | "+result2[i].id+" | "+result2[i].mat+"</button>"+"<br>";
+        out2.innerHTML += "<button class='searchButtons');' onclick='itemStats(this, "+result2[i].id+")'>"+result2[i].item+" | "+result2[i].id+" | "+result2[i].mat+"</button>"+"<br>";
     }
+}
+function itemStats(selection, id)
+{
+
 }
