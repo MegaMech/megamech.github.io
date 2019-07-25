@@ -1,25 +1,51 @@
-body {
+body
+{
     width: 100%;
 }
-.wrapper {
+.wrapper
+{
     max-width: none !important;
     margin: none !important;
 
 }
-.craftingbar, #selection, #output, #output2 {
+.craftingbar, #selection, #output, #output2
+{
     display: block !important;
     margin-left: auto;
     margin-right: auto;
 }
-#selection {
+#selection
+{
     border-left:  4px solid #e3e3e3;
     margin-top: 9px;
 }
-#output {
+#output
+{
     margin-top: 0px;
 }
-#output2 {
+#output2
+{
     margin-top: 10px;
     border-left: 4px solid #e3d3d3;
     margin-bottom: 10px;
+}
+@media screen and (max-width: 530px)
+{
+#selection, #output, #output2
+{
+    width: 100% !important;
+}
+#selection
+{
+    text-align: center;
+}
+
+
+}
+@media screen and (max-width: 360px)
+{
+    input, .craftingbar
+    {
+        width: 100%;
+    }
 }
