@@ -1,0 +1,16 @@
+.craftingbar, #selection, #output, #output2 {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#selection {
+    border-left:  4px solid #e3e3e3;
+    margin-top: 9px;
+}
+#output {
+    margin-top: 0px;
+}
+#output2 {
+    margin-top: 10px;
+    border-left: 4px solid #e3d3d3;
+}

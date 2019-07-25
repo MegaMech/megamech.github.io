@@ -12,8 +12,7 @@ const options = {
 };
 const options2 = {
     shouldSort: true,
-    threshold: 0.6,
-    findAllMatches: true,
+    threshold: 0.9,
     location: 0,
     distance: 100,
     maxPatternLength: 32,

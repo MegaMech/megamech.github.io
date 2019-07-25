@@ -3,7 +3,7 @@ body
     margin: 0;
     background-color: #f5c242;
     position: relative;
-    min-height: 100vh;
+    min-height: 85vh;
     text-align: justify;
     //font-family: 'Source Sans Pro', sans-serif;
 }
@@ -18,6 +18,9 @@ body
     height: 111px;
     vertical-align: bottom;
     width: 511px;
+    border: 4px solid #e3e3e3;
+    border-radius: 8px;
+    border-left: none;
 }
 .elements {
     width: 164px;
@@ -49,7 +52,7 @@ input
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    max-width: 1000px;
     min-height: 100px;
 }
 #output
