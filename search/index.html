@@ -7,12 +7,13 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 853px)" href="cellphone.css"/>
     <script src="textFit.min.js"></script>
-    <script src="main.db"></script>
-    <script src="itemDB"></script>
+    <script src="itemDB.js"></script>
     <script src="fuse.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
+    <div id="itemStats"></div>
+    <div id="cover" onclick="closeItemStats()"></div>
     <div class="wrapper">
         <div class="craftingbar">
             <input type="text" placeholder="Crafting ID..." maxlength="50" onkeyup="searchDB(this);" />
