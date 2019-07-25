@@ -1,17 +1,38 @@
+body
+{
+    margin: 0;
+    background-color: #f5c242;
+    position: relative;
+    min-height: 100vh;
+    text-align: justify;
+    //font-family: 'Source Sans Pro', sans-serif;
+}
+//@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-display: swap;
+}
 #selection
 {
-    height: 150px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+    display: inline-block;
+    overflow: auto;
+    height: 111px;
+    vertical-align: bottom;
+    width: 511px;
+}
+.elements {
+    width: 164px;
+    height: 55px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 .craftingbar
 {
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
     height: 111px;
-    width: 500px;
+    width: 360px;
+
 }
 input
 {
@@ -21,9 +42,11 @@ input
     border-radius: 8px;
     border-style: solid;
     border-width: 4px;
+    background-color: #f7f7f7;
 }
 .wrapper
 {
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
@@ -31,25 +54,34 @@ input
 }
 #output
 {
+    margin-top: 7px;
     display: inline-block;
     vertical-align: top;
-    width: 350px;
-    border: 2px solid;
+    width: 355px;
+    height: 307px;
+    border: 4px solid #e3e3e3;
     font-size: 30px;
+    overflow: auto;
+    background-color: #d4a737;
 }
 #output2
 {
+    margin-top: 7px;
     display: inline-block;
     vertical-align: top;
-    width: 500px;
-    border: 2px solid;
+    width: 504px;
+    height: 307px;
+    border: 4px solid #e3e3e3;
     font-size: 30px;
+    overflow: auto;
+    background-color: #d4a737;
+    border-left: none;
 }
 .searchButtons
 {
     outline: none;
     border: none;
-    background-color: white;
+    background-color: transparent;
     font-size: 30px;
     padding: 20px;
 }

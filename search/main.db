@@ -1,4 +1,4 @@
-items = [
+const items = [
 {
     id: "12",
     item: "Pickaxe",
@@ -32,10 +32,19 @@ items = [
     mat: [
         "103"
         ]
+},
+{
+    id: "16",
+    item: "Club",
+    mat: [
+        "100",
+        "100",
+        "101"
+    ]
 }
 ]
 
-resources = [
+const resources = [
 {
     id: "100",
     item: "Rock"
