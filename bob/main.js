@@ -23,8 +23,7 @@ window.onload = function()
              document.getElementsByTagName("footer")[0].style.opacity = "1";
              document.getElementById("loadspin").remove();
              position = Object.keys(comics).length - 1;
-             document.getElementById("comicTitle").innerHTML = comics[position].Title;
-             document.getElementById("comicDate").innerHTML = comics[position].Date;
+             comic(0);
          }, 1000);
 
      }, 1000);
@@ -46,7 +45,7 @@ function comic(direction)
     position = position + direction;
     if (position === -1) {position = Object.keys(comics).length - 1;}
     if (position === Object.keys(comics).length) {position = 0;}
-
+        console.log(position);
     var urlString = "url('comics/"+comics[position].FileName+"')";
     console.log(urlString);
     document.getElementsByClassName("comic")[0].style.backgroundImage = urlString;
