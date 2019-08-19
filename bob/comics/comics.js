@@ -6,6 +6,7 @@ comics = {
     5:{Title:"Cymbol Tryouts", Date:"August 08, 2019", FileName:"cymbols.jpg"},
     6:{Title:"Cheese is a Loaf of Milk", Date:"August 09, 2019", FileName:"cheese.jpg"},
     7:{Title:"Raisins are Grape Jerky", Date:"August 10, 2019", FileName:"raisins.jpg"},
-    8:{Title:"Furrasic Fark", Date:"August 11, 2019", FileName:"jurrasicpark.png"}
+    8:{Title:"Furrasic Fark", Date:"August 11, 2019", FileName:"jurrasicpark.png"},
+    9:{Title:"Dog Man", Date:"August 12, 2019", FileName:"dogman.jpg"}
 
 }
