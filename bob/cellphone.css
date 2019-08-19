@@ -172,6 +172,10 @@ nav
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    .comic
+    {
+        width: auto;
+    }
     .foot
     {
         display: none !important; /* The width is 100%, when the viewport is 853px or smaller */
