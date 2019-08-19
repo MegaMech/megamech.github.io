@@ -1,3 +1,4 @@
+var position;
 window.onload = function()
 {
     var menus = document.getElementsByClassName("cellphoneMenuPanel")[0];
@@ -21,6 +22,9 @@ window.onload = function()
              document.getElementsByTagName("footer")[0].style.zIndex = "1";
              document.getElementsByTagName("footer")[0].style.opacity = "1";
              document.getElementById("loadspin").remove();
+             position = Object.keys(comics).length - 1;
+             document.getElementById("comicTitle").innerHTML = comics[position].Title;
+             document.getElementById("comicDate").innerHTML = comics[position].Date;
          }, 1000);
 
      }, 1000);
@@ -36,6 +40,18 @@ function menu()
         menus.style.height = "375px";
     }
     return true;
+}
+function comic(direction)
+{
+    position = position + direction;
+    if (position === -1) {position = Object.keys(comics).length - 1;}
+    if (position === Object.keys(comics).length) {position = 0;}
+
+    var urlString = "url('comics/"+comics[position].FileName+"')";
+    console.log(urlString);
+    document.getElementsByClassName("comic")[0].style.backgroundImage = urlString;
+    document.getElementById("comicTitle").innerHTML = comics[position].Title;
+    document.getElementById("comicDate").innerHTML = comics[position].Date;
 }
 function footerLink()
 {

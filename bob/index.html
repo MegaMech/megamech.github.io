@@ -15,10 +15,11 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 853px)" href="cellphone.css"/>
+    <script src="comics/comics.js"></script>
     <script src="main.js"></script>
 </head>
 <body id="particles-js">
-
+<img src="comics/workplace.jpg" draggable="false" id="comicLoader" height="0" width="0" style="z-index: -100; top: -500px; left: -100px; position: absolute;" />
 
 <script src="particles.js"></script>
 <nav>
@@ -36,8 +37,8 @@
     <img id="logoImg" src="logo.png" draggable="false" width="450" style="display: block; margin-left: auto; margin-right: auto;">
     <img id="loadspin" src="laserload.png" draggable="false">
     <div id="contentDisplay" style="opacity: 0; z-index: -1; transition: opacity 0.2s linear;">
-    <h3>Daily Comic</h3>
-    <div class="comic"></div>
+    <h3>Daily Comic</h3><h4 id="comicTitle"></h4><h4 id="comicDate"></h4>
+    <div class="comic"><img src="arrowL.png" onclick="return comic(-1);" draggable="false" class="comicArrows" style="float: left; margin-left: 10px;"/><img src="arrowR.png" onclick="return comic(1);" draggable="false" class="comicArrows" style="float: right; margin-right: 10px;" /></div>
 </div>
 </main>
 <footer>
@@ -64,7 +65,7 @@ width: 80%;">
     <!-- Cellphone footer -->
     <td class="cellphoneFoot" style="display: none;" align="right">
         Steven Andrews<br>Art website<br>
-        © 2019-<script type="text/javascript">document.write(new Date().getFullYear());</script>, Andrew Stevens<br><br>
+        © 2019-<script type="text/javascript">document.write(new Date().getFullYear());</script>, Steven Andrews<br><br>
         <a class="footerLink" href="" class="whiteLink"></a>
     </td>
     </tr>
