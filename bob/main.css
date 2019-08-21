@@ -210,7 +210,7 @@ footer
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 231px;
+    min-height: 145px;
     color: white;
     font-size: 24px;
     z-index: -1;
@@ -218,12 +218,10 @@ footer
     transition: opacity 0.2s linear;
     -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
-    background: rgb(98,98,98);
-    background: -moz-linear-gradient(90deg, rgba(98,98,98,1) 0%, rgba(42,42,42,1) 50%, rgba(98,98,98,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(98,98,98,1) 0%, rgba(42,42,42,1) 50%, rgba(98,98,98,1) 100%);
-    background: linear-gradient(90deg, rgba(98,98,98,1) 0%, rgba(42,42,42,1) 50%, rgba(98,98,98,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#626262",endColorstr="#626262",GradientType=1);
+    box-shadow: 0px -4px 5px 2px rgba(0,0,0,0.75);
+    background-color: rgb(21, 21, 21);
+    border-top: 1px black solid;
+
 }
 .foot
 {
