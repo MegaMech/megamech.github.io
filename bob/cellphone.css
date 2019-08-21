@@ -70,14 +70,14 @@ nav
     {
         text-decoration: none;
         box-shadow: none;
-        color: #660060;
+        color: white;
     }
     .cellphoneMenuPanel a:link
     {
     }
     .cellphoneMenuPanel a:visited
     {
-        color: #660060;
+        color: white;
     }
     .cellphoneMenuPanel a:hover
     {
@@ -88,7 +88,7 @@ nav
     {
         -webkit-tap-highlight-color: transparent;
         outline: none;
-        color: #660060;
+        color: white;
         box-shadow: none;
         text-decoration: none;
         background-color: #afafaf !important;
@@ -147,7 +147,7 @@ nav
         font-weight: bold;
         text-decoration: none;
         z-index: 200;
-        color: #660060;
+        color: white;
 		display: block !important;
 		height: 0px;
 		width: 100%;
@@ -155,11 +155,8 @@ nav
         z-index: 100;
 		overflow: hidden;
         position: fixed;
-        background: rgb(255,255,255);
-        background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
-        background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
-        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 72%, rgba(222,222,222,1) 97%, rgba(62,62,62,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#3e3e3e",GradientType=1);
+        background: rgb(9,0,35);
+background: linear-gradient(0deg, rgba(9,0,35,1) 0%, rgba(21,21,21,1) 72%, rgba(50,50,50,1) 97%, rgba(62,62,62,1) 100%);
     }
     spacer
     {
@@ -185,5 +182,7 @@ nav
         display: table-cell !important; /* The width is 100%, when the viewport is 853px or smaller */
         text-align: center;
         font-size: 22px !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
