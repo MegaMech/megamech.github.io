@@ -51,7 +51,8 @@ header Tcolor, .title2 Tcolor {
 	height: 100%;
 	width: 100%;
 	float: left;
-	line-height: 1.4;
+	line-height: 1.7;
+	font-size: 3vw;
 }
 .title a {
 	padding-left: 35px;
