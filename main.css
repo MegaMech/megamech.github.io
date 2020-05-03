@@ -125,11 +125,15 @@ content {
 .arrow:hover {
 	color: rgb(5, 0, 98);
 }
-#grad {
+#background-wrap {
 	background-color: black;
+	background-image: url("images/steinway2_new.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#grad {
 }
 #content1 {
-	background-image: url("images/steinway2_new.png");
 }
 #content2 {
 	background-image: url("images/steinway1.png");
