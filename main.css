@@ -129,6 +129,7 @@ content {
 	background-color: black;
 	background-image: url("images/steinway2_blur.png);
 	background-repeat: no-repeat;
+	background-position: right center;
 }
 #content1 {
 	background-image: url("images/steinway2.png");
