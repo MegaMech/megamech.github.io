@@ -45,7 +45,7 @@ function nonsenseLink()
     var eidxf = "b";
     var cy = "o";
     var efsdjei = "n";
-    var idkje = "nce"
+    var idkje = "w"
     var easi = "s";
     var edbidoe = "@";
     var la = "ma";
@@ -60,8 +60,8 @@ function nonsenseLink()
     var yhlkg = "x";
     var jhf = "r";
 
-    document.getElementsByClassName("nonsenseLink")[0].href = ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;
-    document.getElementsByClassName("nonsenseLink")[0].innerHTML = ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;
-	return ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;;
+    document.getElementsByClassName("nonsenseLink")[0].href = ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+idkje+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;
+    document.getElementsByClassName("nonsenseLink")[0].innerHTML = ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+idkje+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;
+	return ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+ks+idkje+ohd+easi+cy+jhf+dgls+yfed+mzjn;;
 }
 
