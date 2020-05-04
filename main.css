@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
 	background-color: rgb(0, 0, 0);
 	color: ghostwhite;
+	scroll-behavior: smooth;
 }
 @font-face {
     font-family: 'arial-black';
