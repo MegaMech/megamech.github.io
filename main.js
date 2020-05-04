@@ -6,6 +6,7 @@ window.onload = function() {
 		var navigate = window.location.hash.substr(1);
 		menu(navigate);
 	}
+	nonsenseLink();
 };
 
 function menu(selection) {
