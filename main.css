@@ -11,27 +11,6 @@ wrap {
 	height: 100%;
 	width: 100%;
 }
-header {
-	height: 80px;
-	width: 100%;
-	background-color: rgb(5, 0, 98);
-	text-align: left;
-	font-size: 66px;
-	font-family: "Arial Black", arial-black, Arial;
-	font-weight: 900;
-	-webkit-box-shadow: 0px 6px 15px 3px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 6px 15px 3px rgba(0,0,0,0.75);
-	box-shadow: 0px 6px 15px 3px rgba(0,0,0,0.75);
-}
-header Tcolor, .title2 Tcolor {
-	color: lightgrey;
-}
-.hiddenmargin {
-	height: 45px;
-	width: 100%;
-	display: none;
-	visibility: hidden;
-}
 .background {
 	position: absolute;
 	min-height: 800px;
@@ -67,7 +46,7 @@ menu {
 	height: 45px;
 	width: 100%;
 	padding-left: 0px;
-	background-color: rgb(64, 64, 64);
+	background-color: rgba(36, 36, 36, 0.8);
 	margin: 0;
 	font-family: "Arial Black", arial-black, Arial;
 	font-weight: 900;
