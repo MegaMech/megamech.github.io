@@ -58,7 +58,6 @@ menu a {
 	padding-left: 12px;
 	padding-right: 12px;
 	float: left;
-	color: ghostwhite;
 }
 menu a:hover {
 	background-color: black;
@@ -156,6 +155,7 @@ button {
 	height: 45px;
 	border: none;
 	font-family: "Arial Black", arial-black, Arial;
+	color: ghostwhite;
 	font-weight: 900;
 	font-size: 32px;
 	background-color: transparent;
