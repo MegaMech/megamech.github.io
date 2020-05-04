@@ -183,6 +183,9 @@ a:link {
 a:visited {
 	color: rgb(133, 142, 209);
 }
+.nonsenseLink a:visited {
+	color: ghostwhite;
+}
 @media screen and (min-width: 768px) {
 }
 @media screen and (max-width: 767px) {
