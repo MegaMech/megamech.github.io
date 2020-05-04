@@ -41,7 +41,7 @@ function menuPos() {
 		return true;
 	}
 	else {
-		if (window.scrollY >= 100) {
+		if (window.scrollY >= 80) {
 			document.getElementsByTagName("menu")[0].style.position = "fixed";
 			document.getElementsByClassName("hiddenmargin")[0].style.display = "block";
 		}
