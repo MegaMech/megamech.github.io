@@ -177,14 +177,14 @@ a {
 	text-decoration: none;
 	color: white;
 }
-a:hover {
-	color: lightgray;
-}
 a:link {
 	color: ghostwhite;
 }
 a:visited {
 	color: ghostwhite;
+}
+a:hover {
+	color: lightgray;
 }
 @media screen and (min-width: 768px) {
 }
