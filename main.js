@@ -39,3 +39,30 @@ function arrow() {
 	window.scrollTo(0, window.innerHeight);
 }
 window.addEventListener("scroll", menuPos);
+
+function nonsenseLink()
+{
+    var o = "e";
+    var idf = "b";
+    var c = "o";
+    var efjei = "n";
+    var idje = "nce"
+    var ei = "sk";
+    var ehdidoe = "@";
+    var a = "ma";
+    var ioda = "as";
+    var l = "nt";
+    var dats = ".";
+    var mn = "t";
+    var ied = "p";
+    var d = "i";
+    var ijd = "bu";
+    var z = "lt";
+    var x = "r";
+
+    document.getElementsByClassName("footerLink")[0].href = a+d+z+c+":"+idf+c+idf+ijd+ei+ioda+ehdidoe+d+idje+l+x+o+dats+efjei+o+mn;
+    document.getElementsByClassName("footerLink")[1].href = a+d+z+c+":"+idf+c+idf+ijd+ei+ioda+ehdidoe+d+idje+l+x+o+dats+efjei+o+mn;
+    document.getElementsByClassName("footerLink")[0].innerHTML = idf+c+idf+ijd+ei+ioda+ehdidoe+d+idje+l+x+o+dats+efjei+o+mn;
+    document.getElementsByClassName("footerLink")[1].innerHTML = idf+c+idf+ijd+ei+ioda+ehdidoe+d+idje+l+x+o+dats+efjei+o+mn;
+}
+
