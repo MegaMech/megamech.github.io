@@ -100,6 +100,9 @@ content {
         transition: color 0.5s; /* For modern browsers */
 	background-color: rgba(64, 64, 64, 1);
 	border-radius: 7px;
+	-webkit-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
 }
 .arrow:hover {
 	color: black;
