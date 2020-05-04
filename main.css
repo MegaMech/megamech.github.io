@@ -1,6 +1,6 @@
 html, body {
 	margin: 0;
-	background-color: rgb(64, 64, 64);
+	background-color: rgb(0, 0, 0);
 }
 @font-face {
     font-family: 'arial-black';
@@ -78,7 +78,6 @@ content {
 	display: block;
 	min-height: 800px;
 	color: white;
-	background-color: gray !important;
 	font-family: "Arial";
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -118,7 +117,6 @@ content {
 #content1 {
 }
 #content2 {
-	background-image: url("images/steinway1.png");
 }
 #highlighter {
 	background-color: rgba(0, 0, 0, 0.5);
