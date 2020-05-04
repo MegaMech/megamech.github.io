@@ -42,7 +42,7 @@ wrap {
 }
 menu {
 	display: block;
-	position: relative;
+	position: fixed;
 	height: 45px;
 	width: 100%;
 	padding-left: 0px;
