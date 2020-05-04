@@ -35,22 +35,6 @@ xhr.open("GET", selection+".html");
 xhr.responseType = "document";
 xhr.send();
 }
-function menuPos() {
-	if (window.innerWidth <= 768) {
-		document.getElementsByClassName("hiddenmargin")[0].style.display = "none";
-		return true;
-	}
-	else {
-		if (window.scrollY >= 80) {
-			document.getElementsByTagName("menu")[0].style.position = "fixed";
-			document.getElementsByClassName("hiddenmargin")[0].style.display = "block";
-		}
-		else {
-			document.getElementsByTagName("menu")[0].style.position = "relative";
-			document.getElementsByClassName("hiddenmargin")[0].style.display = "none";
-		}
-	}
-}
 function arrow() {
 	window.scrollTo(0, 800);
 }
