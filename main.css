@@ -6,10 +6,6 @@ html, body {
     font-family: 'arial-black';
     src: local('Arial Black');
 }
-@font-face {
-  font-family: TheQueen;
-  src: url("images/TheQueen-Regular.ttf");
-}
 wrap {
 	margin: 0;
 	height: 100%;
