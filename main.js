@@ -36,6 +36,6 @@ xhr.responseType = "document";
 xhr.send();
 }
 function arrow() {
-	window.scrollTo(0, 800);
+	window.scrollTo(0, window.innerHeight);
 }
 window.addEventListener("scroll", menuPos);
