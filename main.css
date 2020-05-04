@@ -145,7 +145,7 @@ th {
 footer {
 	display: table;
 	border-top: 2px solid black;
-	height: 50px;
+	height: 60px;
 	width: 100%;
 	background-color: rgba(64, 64, 64, 1);
 	text-align: center;
