@@ -38,7 +38,6 @@ wrap {
 	padding-left: 35px;
 	padding-bottom: 8px;
 	height: 80px;
-	color: white !important;
 	text-decoration: none;
 }
 menu {
@@ -78,7 +77,6 @@ menu img {
 content {
 	display: block;
 	min-height: 800px;
-	color: white;
 	font-family: "Arial";
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -130,7 +128,7 @@ table, th, td {
     	border: 1px solid dimgray;
   	border-collapse: collapse;
 	background-color: rgb(50, 50, 50);
-	color: white;
+	color: ghostwhite;
 }
 th, td {
 	padding-left: 10px;
@@ -151,7 +149,6 @@ footer {
 	font-family: "Arial Black", arial-black, Arial;
 	font-weight: 900;
 	font-size: 20px;
-	color: white;
 }
 button {
 	float: left;
@@ -161,7 +158,6 @@ button {
 	font-weight: 900;
 	font-size: 32px;
 	background-color: transparent;
-	color: white;
 	cursor: pointer;
 	outline: none;
 	padding-left: 12px;
@@ -175,6 +171,10 @@ button:hover {
 button::-moz-focus-inner {
     padding: 0;
     border: 0
+}
+a {
+	text-decoration: none;
+	color: white;
 }
 a:link {
 	color: rgb(98, 114, 239);
