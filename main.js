@@ -24,7 +24,12 @@ function menu(selection) {
 	var xhr = new XMLHttpRequest();
 	xhr.onload = function() {
 	a = this.responseXML;
-	document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[0].innerHTML;
+	try {
+		document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[0].innerHTML;
+	}
+	catch(e) {
+		console.log(e); menu('home');
+	}
 	if (this.responseXML.getElementsByTagName("body")[0].childNodes[2] != null) {
 		document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
 	}
