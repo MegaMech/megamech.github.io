@@ -11,6 +11,7 @@ window.onload = function() {
 
 function menu(selection) {
 	var menu = document.getElementsByClassName("buttonmobilewrap")[0];
+	var arrow;
 	if (selection == "activate") {
 		if (menu.clientHeight == "465") {
 			menu.style.height = "0px";
@@ -19,6 +20,10 @@ function menu(selection) {
 			menu.style.height = "465px";
 		}
 		return true;
+	}
+	if (selection == "about") {
+		selection = "home"	
+		arrow = true;
 	}
 	menu.style.height = "0px";
 	var xhr = new XMLHttpRequest();
@@ -34,6 +39,7 @@ function menu(selection) {
 		document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
 	}
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
+	if (arrow) {arrow(); arrow = false;}
 }
 window.location.hash = selection;
 xhr.open("GET", selection+".html");
