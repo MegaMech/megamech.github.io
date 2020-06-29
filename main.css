@@ -192,6 +192,10 @@ a:hover {
 @media screen and (min-width: 768px) {
 }
 @media screen and (max-width: 767px) {
+	
+	#background1, background-wrap {
+		background-size: contain;
+	}
 	header {
 		display: none;
 	}
