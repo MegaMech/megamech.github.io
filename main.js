@@ -8,6 +8,9 @@ window.onload = function() {
 	}
 	nonsenseLink();
 };
+function arrow() {
+	window.scrollTo(0, window.innerHeight);
+}
 
 function menu(selection) {
 	var menu = document.getElementsByClassName("buttonmobilewrap")[0];
@@ -45,9 +48,6 @@ window.location.hash = selection;
 xhr.open("GET", selection+".html");
 xhr.responseType = "document";
 xhr.send();
-}
-function arrow() {
-	window.scrollTo(0, window.innerHeight);
 }
 
 function nonsenseLink()
