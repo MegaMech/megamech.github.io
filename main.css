@@ -203,6 +203,10 @@ a:hover {
 	#background1, #background-wrap {
 		background-size: contain !important;
 	}
+	#background1 div {
+		margin-top: 22vw;
+		margin-left: 32vh;	
+	}
 	header {
 		display: none;
 	}
