@@ -207,6 +207,9 @@ a:hover {
 		margin-top: 22vw;
 		margin-left: 32vh;	
 	}
+	#arrow {
+		width: 60px !important;
+	}
 	header {
 		display: none;
 	}
