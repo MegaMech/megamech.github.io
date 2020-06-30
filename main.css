@@ -194,7 +194,7 @@ a:hover {
 @media screen and (max-width: 835px) {
 	
 	#background1 .background-wrap {
-		background-size: contain;
+		background-size: contain !important;
 	}
 	header {
 		display: none;
