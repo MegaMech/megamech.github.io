@@ -200,8 +200,13 @@ a:hover {
 }
 @media screen and (max-width: 835px) {
 	
-	#background1, #background-wrap {
+	#background-wrap {
 		background-size: contain !important;
+		min-height: 57vh;
+	}
+	#background1 {
+		background-size: contain !important;
+		min-height: 46vh;
 	}
 	#background1 div {
 		margin-top: 22vw;
