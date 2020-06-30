@@ -202,15 +202,15 @@ a:hover {
 	
 	#background-wrap {
 		background-size: contain !important;
-		min-height: 57vh;
+		min-height: 57vh !important;
 	}
 	#background1 {
 		background-size: contain !important;
-		min-height: 46vh;
+		min-height: 46vh !important;
 	}
 	#background1 div {
-		margin-top: 22vw;
-		margin-left: 32vh;	
+		margin-top: 22vw !important;
+		margin-left: 32vh !important;
 	}
 	#arrow {
 		width: 60px !important;
