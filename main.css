@@ -258,6 +258,9 @@ a:hover {
 	menu button {
 		display: none;
 	}
+	#buttonmobile {
+		display: block;	
+	}
 	.buttonmobilewrap {
 		display: block;
 		margin-top: 45px;
