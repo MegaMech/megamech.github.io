@@ -40,7 +40,9 @@ function menu(selection) {
 		document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
 	}
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
+	document.getElementsByTagName("body").style.scrollBehavior = "auto";
 	window.scrollTo(0, 0);
+	document.getElementsByTagName("body").style.scrollBehavior = "smooth";
 	if (arrow) {window.scrollTo(0, window.innerHeight); arrow = false;}
 	}
 	window.location.hash = selection;
