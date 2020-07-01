@@ -54,6 +54,8 @@ wrap {
 	background-position: right center;
 	font-size: 25px;
 	line-height: 1.8;
+	user-select: none;
+	cursor: pointer;
 }
 #buttonmobile:hover {
 	background-color: black;
