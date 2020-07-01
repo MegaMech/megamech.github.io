@@ -48,12 +48,13 @@ wrap {
 #buttonmobile {
 	display: none;
 	float: right;
-	padding-right: 45px;
+	padding-right: 62px;
+	padding-left: 12px;
 	background-image: url('images/menubutton.png');
 	background-repeat: no-repeat;
-	background-position: right center;
-	font-size: 25px;
-	line-height: 1.8;
+	background-position: right 12px center;
+	font-size: 22px;
+	line-height: 2.1;
 	user-select: none;
 	cursor: pointer;
 }
@@ -258,8 +259,8 @@ a:hover {
 	.title2 {
 		display: block !important;
 		width: 228px !important;
-		font-size: 25px !important;
-		line-height: 1.8;
+		font-size: 22px !important;
+		line-height: 2.1;
 	}
 	menu {
 		position: fixed !important;
