@@ -114,7 +114,7 @@ content {
         transition: filter 0.5s; /* For modern browsers */
 	filter: invert(100%);
 }
-.arrow:hover + arrow-image {
+.arrow:hover + #arrow-image {
 	filter: invert(0%);
 }
 .media-flex {
