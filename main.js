@@ -41,7 +41,7 @@ function menu(selection) {
 	}
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
 	window.scrollTo(0, 0);
-	if (arrow) {window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'); arrow = false;}
+	if (arrow) {window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;}
 	}
 	window.location.hash = selection;
 	xhr.open("GET", selection+".html");
