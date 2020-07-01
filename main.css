@@ -109,11 +109,12 @@ content {
 	box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
 }
 #arrow-image {
-	-webkit-transition: invert 0.5s; /* For Safari 3.0 to 6.0 */
-        transition: invert 0.5s; /* For modern browsers */
+	padding-top: 12px;
+	-webkit-transition: filter 0.5s; /* For Safari 3.0 to 6.0 */
+        transition: filter 0.5s; /* For modern browsers */
 	filter: invert(100%);
 }
-#arrow-image:hover {
+#arrow:hover + arrow-image {
 	filter: invert(0%);
 }
 .media-flex {
