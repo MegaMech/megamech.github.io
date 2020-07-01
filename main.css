@@ -279,5 +279,8 @@ a:hover {
 	.buttonmobilewrap button:hover {
 		background-color: transparent;
 	}
+	.content-padding {
+		padding-left: 52px;
+	}
 	
 }
