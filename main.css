@@ -250,8 +250,9 @@ a:hover {
 	}
 	.title2 {
 		display: block !important;
-		width: 300px !important;
-		font-size: 3.5vw !important;
+		width: 228px !important;
+		font-size: 25px !important;
+		line-height: 1.8;
 	}
 	menu {
 		position: fixed !important;
