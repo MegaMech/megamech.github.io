@@ -108,11 +108,12 @@ content {
 	-moz-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
 	box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
 }
-.arrow img {
+#arrow-image {
 	-webkit-transition: invert 0.5s; /* For Safari 3.0 to 6.0 */
         transition: invert 0.5s; /* For modern browsers */
+	invert: 100%;
 }
-.arrow img:hover {
+#arrow-image:hover {
 	invert: 0%;
 }
 .media-flex {
