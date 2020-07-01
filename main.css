@@ -222,6 +222,10 @@ a:hover {
 	#background1 {
 		background-size: contain !important;
 		min-height: 46vh !important;
+		padding-left: 0px;
+	}
+	.media-item iframe {
+		max-width: 100%;
 	}
 	#text {
 		margin-top: 22vw !important;
