@@ -52,6 +52,8 @@ wrap {
 	background-image: url('images/menubutton.png');
 	background-repeat: no-repeat;
 	background-position: right center;
+	font-size: 25px;
+	line-height: 1.8;
 }
 menu {
 	display: block;
@@ -268,7 +270,7 @@ a:hover {
 		display: none;
 	}
 	#buttonmobile {
-		display: block;	
+		display: block;
 	}
 	.buttonmobilewrap {
 		display: block;
