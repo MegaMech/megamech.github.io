@@ -33,12 +33,13 @@ function menu(selection) {
 		document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[0].innerHTML;
 	}
 	catch(e) {
-		console.log(e); menu('home');
+		console.log(e); menu(selection);
 	}
 	if (this.responseXML.getElementsByTagName("body")[0].childNodes[2] != null) {
 		document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
 	}
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
+	window.scrollBy({left: 0, top: 0, behavior: 'auto'});
 	if (arrow) {window.scrollTo(0, window.innerHeight); arrow = false;}
 }
 window.location.hash = selection;
