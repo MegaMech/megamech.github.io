@@ -50,7 +50,7 @@ function menu(selection) {
 }
 
 function arrow() {
-	window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth');
+	window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'});
 }
 
 function nonsenseLink()
