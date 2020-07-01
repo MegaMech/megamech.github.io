@@ -42,7 +42,7 @@ function menu(selection) {
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
 	document.getElementsByTagName("body").style.scrollBehavior = "auto";
 	window.scrollTo(0, 0);
-	document.getElementsByTagName("body").style.scrollBehavior = "smooth";
+	document.getElementsByTagName("body")[0].style.scrollBehavior = "smooth";
 	if (arrow) {window.scrollTo(0, window.innerHeight); arrow = false;}
 	}
 	window.location.hash = selection;
