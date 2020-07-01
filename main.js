@@ -3,6 +3,7 @@ window.onload = function() {
 		menu('home');
 	}
 	else if (window.location.hash.charAt(0) == "#") {
+		console.log("HI"+window.location.hash.charAt(0));
 		var navigate = window.location.hash.substr(1);
 		menu(navigate);
 	}
