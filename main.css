@@ -112,6 +112,16 @@ content {
 .arrow:hover {
 	color: black;
 }
+.media-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.media-item {
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
 #background-wrap {
 	background-color: black;
 	background-image: url("images/steinway2_new.png");
