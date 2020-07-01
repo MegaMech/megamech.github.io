@@ -3,11 +3,11 @@ window.onload = function() {
 		menu('home');
 	}
 	else if (window.location.hash.charAt(0) == "#") {
-		console.log("HI"+window.location.hash.charAt(0));
 		var navigate = window.location.hash.substr(1);
 		menu(navigate);
+		nonsenseLink();
 	}
-	nonsenseLink();
+	else {}
 };
 
 function menu(selection) {
@@ -42,11 +42,11 @@ function menu(selection) {
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
 	window.scrollTo(0, 0);
 	if (arrow) {window.scrollTo(0, window.innerHeight); arrow = false;}
-}
-window.location.hash = selection;
-xhr.open("GET", selection+".html");
-xhr.responseType = "document";
-xhr.send();
+	}
+	window.location.hash = selection;
+	xhr.open("GET", selection+".html");
+	xhr.responseType = "document";
+	xhr.send();
 }
 
 function arrow() {
