@@ -40,9 +40,9 @@ function menu(selection) {
 		document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
 	}
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
-	document.getElementsByTagName("body")[0].style.scrollBehavior = "auto";
+	document.getElementsByTagName("body")[0].style.scrollBehavior = "auto !important";
 	window.scrollTo(0, 0);
-	document.getElementsByTagName("body")[0].style.scrollBehavior = "smooth";
+	document.getElementsByTagName("body")[0].style.scrollBehavior = "smooth !important";
 	if (arrow) {window.scrollTo(0, window.innerHeight); arrow = false;}
 	}
 	window.location.hash = selection;
