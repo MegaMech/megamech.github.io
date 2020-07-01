@@ -2,7 +2,7 @@ window.onload = function() {
 	if (window.location.hash == "") {
 		menu('home');
 	}
-	else {
+	else if (window.location.hash.charAt(0) == "#") {
 		var navigate = window.location.hash.substr(1);
 		menu(navigate);
 	}
