@@ -278,6 +278,9 @@ a:hover {
 	menu button {
 		display: none;
 	}
+	.buttonwrap {
+		display: none;	
+	}
 	#buttonmobile {
 		display: block;
 	}
