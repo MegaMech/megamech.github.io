@@ -14,11 +14,11 @@ function menu(selection) {
 	var menu = document.getElementsByClassName("buttonmobilewrap")[0];
 	var arrow;
 	if (selection == "activate") {
-		if (menu.clientHeight == "495") {
+		if (menu.clientHeight == "430") {
 			menu.style.height = "0px";
 		}
 		else {
-			menu.style.height = "495px";
+			menu.style.height = "430px";
 		}
 		return true;
 	}
