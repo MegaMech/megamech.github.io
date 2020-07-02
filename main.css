@@ -300,8 +300,8 @@ a:hover {
 		background-color: transparent;
 	}
 	.content-padding {
-		text-align: center;
-		margin-top: 50px;
+		text-align: center !important;
+		margin-top: 50px !important;
 	}
 	
 }
