@@ -48,7 +48,9 @@ wrap {
 #buttonmobile {
 	display: none;
 	float: right;
-	padding-right: 62px;
+	width: 45px;
+	height: 45px;
+	padding-right: 12px;
 	padding-left: 12px;
 	background-image: url('images/menubutton.png');
 	background-repeat: no-repeat;
