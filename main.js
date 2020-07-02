@@ -5,9 +5,9 @@ window.onload = function() {
 	else if (window.location.hash.charAt(0) == "#") {
 		var navigate = window.location.hash.substr(1);
 		menu(navigate);
-		nonsenseLink();
 	}
 	else {}
+	nonsenseLink();
 };
 
 function menu(selection) {
