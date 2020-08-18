@@ -43,7 +43,7 @@ function menu(selection) {
 	window.scrollTo(0, 0);
 	if (arrow) {window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;}
 	}
-	if (selection == "media") {window.scrollTo({left: 0, right: 0})}}
+	if (selection == "media") {window.scrollTo({left: 0, right: 0});}
 	window.location.hash = selection;
 	xhr.open("GET", selection+".html");
 	xhr.responseType = "document";
