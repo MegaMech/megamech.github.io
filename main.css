@@ -232,6 +232,7 @@ a:hover {
 input, textarea {
 	border-radius: 8px;
 	border: 5px white solid;
+	margin-top: 2px;
 }
 @media screen and (min-width: 768px) {
 }
