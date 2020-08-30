@@ -229,6 +229,10 @@ a:visited {
 a:hover {
 	color: lightgray;
 }
+input textarea {
+	border-radius: 8px;
+	border: 5px white solid;
+}
 @media screen and (min-width: 768px) {
 }
 @media screen and (max-width: 835px) {
