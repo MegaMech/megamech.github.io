@@ -58,7 +58,7 @@ function textCounter(e, counter) {
 
 	limit = e.getAttribute("maxlength");
     	var countfield = document.getElementById(counter);
-	if (e.value.length >= limit - 3) {
+	if (e.value.length >= limit - 15) {
       		countfield.innerHTML = limit - e.value.length;
    	}
 	else {countfield.innerHTML = "";}
