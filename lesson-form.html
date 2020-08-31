@@ -9,35 +9,35 @@
   <form>
     <label>E-mail address:</label>
     <br>
-    <input type="text" maxlength="255" required>
+    <input type="text" maxlength="144" onkeyup="textCounter(this,'msg1');" required><span id="msg1" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label>Name of parent:</label>
     <br>
-    <input type="text" maxlength="255">
+    <input type="text" maxlength="80" onkeyup="textCounter(this,'msg2');"><span id="msg2" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label>Name of child:</label>
     <br>
-    <input type="text" maxlength="255">
+    <input type="text" maxlength="80" onkeyup="textCounter(this,'msg3');"><span id="msg3" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label>How many years have you played piano?</label>
     <br>
-    <input type="text" placeholder="ex. four" maxlength="48">
+    <input type="text" placeholder="ex. four" maxlength="50" onkeyup="textCounter(this,'msg4');"><span id="msg4" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label>What difficulty of music are you working on? Specify the conservatory (ex. Grade 1 RCM).
-           If you are not sure, do not worry about it, provide an estimate.</label>
+           If you are not sure, do not worry about it, provide an estimate or input "beginner".</label>
     <br>
-    <textarea onkeyup="textCounter(this,'msg1');" cols="50" maxlength="255"></textarea><span id="msg1" style="margin-left: 5px; color: red;"></span>
+    <textarea onkeyup="textCounter(this,'msg5');" cols="50" maxlength="255"></textarea><span id="msg5" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label>What are some pieces you have played in the past? (Three to five is plenty)</label>
     <br>
-    <textarea cols="50" rows="5" maxlength="510"></textarea>
+    <textarea cols="50" rows="5" maxlength="510" onkeyup="textCounter(this,'msg6');"></textarea><span id="msg6" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label>Any other information you desire to communicate?</label>
     <br>
-    <textarea cols="50" rows="5" maxlength="510"></textarea>
+    <textarea cols="50" rows="5" maxlength="500" onkeyup="textCounter(this,'msg7');"></textarea><span id="msg7" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label>Any questions regarding lessons or music in general?</label><br>
-    <textarea cols="50" rows="5" maxlength="510"></textarea>
+    <textarea cols="50" rows="5" maxlength="500" onkeyup="textCounter(this,'msg8');"></textarea><span id="msg8" style="margin-left: 5px; color: red;"></span>
     <br><br>
     All boxes required to submit.
     <br><br>
