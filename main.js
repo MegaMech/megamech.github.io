@@ -1,4 +1,5 @@
 window.onload = function() {
+	var submitted = false;
 	if (window.location.hash == "") {
 		menu('home');
 	}
