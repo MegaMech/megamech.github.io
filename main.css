@@ -48,6 +48,14 @@ wrap {
 	background-repeat: no-repeat, no-repeat;
 	background-position-y: top, center;
 }
+.lesson-form-wrapper {
+	padding-left: 52px;
+	padding-top: 80px;
+	min-height: 85.3vh;
+	background-image: url('images/steinway12.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position-y: top, center;
+}
 .title, .title2 {
 	height: 100%;
 	width: 100%;
