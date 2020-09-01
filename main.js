@@ -81,6 +81,11 @@ function inputDisplay(e, v) {
         document.getElementById("auralskills-wrapper").style.display = "block";
     }
 }
+inquirySubmit() {
+	form = document.getElementById("gform");
+
+	
+}
 
 function nonsenseLink()
 {
