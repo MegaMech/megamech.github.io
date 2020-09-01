@@ -320,10 +320,10 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	}
 	#arrow {
 		width: 39px !important;
+		height: 75px !important;
 	}
 	#arrow-image {
 		width: 20px !important;
-		height: 75px !important;
 	}
 	header {
 		display: none;
