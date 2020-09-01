@@ -285,8 +285,8 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		padding-top: 0px;
 		text-align: center;
 		background-image: url('images/steinway8.png'), url('images/steinway10.png');
-		background-image-size: contain, contain;
-		background-image-position-y: top, bottom;
+		background-size: contain, contain;
+		background-position-y: top, bottom;
 	}
 	.media-item iframe {
 		max-width: 100%;
