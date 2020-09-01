@@ -1,26 +1,26 @@
 <div class="loadedcontent" onload="var submitted=false;">
 <div class="lesson-form-wrapper">
 <h2>Lessons Inquiry Form</h2>
-  <p id="inquiry-form-text" style="max-width: 800px; font-size: 20px; line-height: 1.5;">
+  <p id="inquiry-form-text" style="max-width: 800px; font-size: 20px; line-height: 1.5; text-shadow: 0px 0px 20px #000000;">
     Thank you for your interest in lessons. To apply, please read the following information and fill-in the applicable boxes.
     Alex will reply via email with more information.<br>
     Despite the website employing secure protocols, security of information cannot be garanteed. Use the form at your own risk.
  </p>
-  <span id="inquiry-form-submit-text" style="text-align: center; font-size: 20px; display: none; margin-top: 150px">Thank you for your inquiry! Alex will respond soon.</span>
+  <span id="inquiry-form-submit-text" style="text-shadow: 0px 0px 20px #000000; text-align: center; font-size: 20px; display: none; margin-top: 150px">Thank you for your inquiry! Alex will respond soon.</span>
   <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSc7etq33kPloc20dnkmw2toxcGHGKAC-9ysQYF7IWMP2NbeBg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">E-mail address:</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">E-mail address:</label>
     <br>
     <input type="email" name="entry.1795137025" id="entry.1795137025" onkeydown="return event.key != 'Enter';" style="width: 250px;" maxlength="320" onkeyup="textCounter(this,'msg1');" required><span id="msg1" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Name of parent:</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Name of parent:</label>
     <br>
     <input type="text" name="entry.1275795052" id="entry.1275795052" onkeydown="return event.key != 'Enter';" style="width: 250px;" maxlength="80" onkeyup="textCounter(this,'msg2');"><span id="msg2" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Name of student:</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Name of student:</label>
     <br>
     <input type="text" name="entry.1984147461" id="entry.1984147461" onkeydown="return event.key != 'Enter';" style="width: 250px;" maxlength="80" onkeyup="textCounter(this,'msg3');"><span id="msg3" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Type of lesson:</label><br>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Type of lesson:</label><br>
     <select name="entry.682808226" id="entry.682808226" onchange="inputDisplay(this, value);">
       <option value="piano">Piano</option>
       <option value="theoryHis">Music theory or music history</option>
@@ -28,29 +28,29 @@
     </select>
     <br><br>
     <div id="piano-wrapper">
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">How many years have you played piano?</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">How many years have you played piano?</label>
     <br>
     <input type="text" name="entry.1995245412" id="entry.1995245412" onkeydown="return event.key != 'Enter';" style="width: 250px;" placeholder="ex. four" maxlength="50" onkeyup="textCounter(this,'msg4');"><span id="msg4" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">What difficulty of music are you working on? Specify the conservatory (ex. Grade 1 RCM).
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">What difficulty of music are you working on? Specify the conservatory (ex. Grade 1 RCM).
       If you are not sure, do not worry about it, provide an estimate or input <i>beginner</i>.</label>
     <br>
     <textarea name="entry.490995451" id="entry.490995451" onkeyup="textCounter(this,'msg5');" cols="50" maxlength="255"></textarea><span id="msg5" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">What are some pieces you have played in the past? (Three to five is plenty)</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">What are some pieces you have played in the past? (Three to five is plenty)</label>
     <br>
     <textarea name="entry.1953931058" id="entry.1953931058" cols="50" rows="5" maxlength="510" onkeyup="textCounter(this,'msg6');"></textarea><span id="msg6" style="margin-left: 5px; color: red;"></span>
     <br><br>
     </div>
     <div id="theoryHis-wrapper" style="display: none;">
-    <p style="max-width: 800px; font-size: 20px; line-height: 1.5;">Alex offers music theory and music history lessons. Students can choose one or both. Contents of lessons are decided via a discussion regarding which topics are desired for learning.</p>
+    <p style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Alex offers music theory and music history lessons. Students can choose one or both. Contents of lessons are decided via a discussion regarding which topics are desired for learning.</p>
     <br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">How long have you studied music and on which instruments?</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">How long have you studied music and on which instruments?</label>
     <br>
     <textarea name="entry.400506046" id="entry.400506046" onkeyup="textCounter(this,'msg11');" cols="50" maxlength="255"></textarea><span id="msg11" style="margin-left: 5px; color: red;"></span>
     <br><br>
     
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Which level of theory or history do you want to learn? Or state a specific concept or area that you want to learn.</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Which level of theory or history do you want to learn? Or state a specific concept or area that you want to learn.</label>
     <br>
     <textarea name="entry.372282866" id="entry.372282866" onkeyup="textCounter(this,'msg22');" cols="50" maxlength="255"></textarea><span id="msg22" style="margin-left: 5px; color: red;"></span>
     <br><br>
@@ -58,25 +58,25 @@
     <div id="auralskills-wrapper" style="display: none;">
     <p style="max-width: 800px; font-size: 20px; line-height: 1.5;">These lessons are designed to provide students with the tools and knowledge to practice on their own. As such it's recommended to take two or three lessons.</p>
     <br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">How long have you studied music and how long have you been singing?</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">How long have you studied music and how long have you been singing?</label>
     <br>
     <textarea name="entry.2145268025" id="entry.2145268025" onkeyup="textCounter(this,'msg33');" cols="50" maxlength="255"></textarea><span id="msg33" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">How will you use the skills learned from sight singing lessons? (Ex. playing by ear, choir, etc.)</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">How will you use the skills learned from sight singing lessons? (Ex. playing by ear, choir, etc.)</label>
     <br>
     <textarea name="entry.458605583" id="entry.458605583" onkeyup="textCounter(this,'msg44');" cols="50" maxlength="255"></textarea><span id="msg44" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Which level of sight singing are you at? (Estimate)</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Which level of sight singing are you at? (Estimate)</label>
     <br>
     <textarea name="entry.141226830" id="entry.141226830" onkeyup="textCounter(this,'msg55');" cols="50" maxlength="255"></textarea><span id="msg55" style="margin-left: 5px; color: red;"></span>
     <br><br>
     </div>
     
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Anything else?</label>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Anything else?</label>
     <br>
     <textarea name="entry.641075949" id="entry.641075949" cols="50" rows="5" maxlength="500" onkeyup="textCounter(this,'msg7');"></textarea><span id="msg7" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Any questions regarding lessons or music in general?</label><br>
+    <label style="text-shadow: 0px 0px 20px #000000; max-width: 800px; font-size: 20px; line-height: 1.5;">Any questions regarding lessons or music in general?</label><br>
     <textarea name="entry.338340977" id="entry.338340977" cols="50" rows="5" maxlength="500" onkeyup="textCounter(this,'msg8');"></textarea><span id="msg8" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <input id="form-submit" type="submit" value="Submit" onclick="inquirySubmit();" style="border: 2px solid white">
