@@ -359,7 +359,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		margin-top: 45px;
 		height: 0px;
 		width: 100%;
-		background-color: rgba(18, 18, 18, 0.6);
+		background-color: rgba(18, 18, 18, 0.8);
 		transition: height 0.5s;
 		overflow: hidden;
 	}
