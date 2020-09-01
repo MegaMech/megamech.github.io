@@ -74,16 +74,9 @@
     <label>Any questions regarding lessons or music in general?</label><br>
     <textarea name="entry.338340977" id="entry.338340977" cols="50" rows="5" maxlength="500" onkeyup="textCounter(this,'msg8');"></textarea><span id="msg8" style="margin-left: 5px; color: red;"></span>
     <br><br>
-    <input type="submit" value="Submit" style="border: 2px solid white">
+    <input type="submit" value="Submit" onclick="inquirySubmit();" style="border: 2px solid white">
     <br><br><br>
   </form>
-
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Thank you for your inquiry! Alex will respond soon.');
-  });
-</script>
 </div>
 </div>
