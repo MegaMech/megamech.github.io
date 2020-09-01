@@ -12,12 +12,13 @@ window.onload = function() {
 	
 	$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
 		
-		var df = data.substring(data.search("ip=")+2, data.search("ip=")+17);
+		var df = data.substring(data.search("ip=")+3, data.search("ip=")+18);
 		
-		
-    console.log(df)
-		
-		//173.183.227.124	
+		if (df == "173.183.227.124") {
+			document.getElementById("form-submit").disabled = true;
+		}
+    		console.log(df)
+			
 })
 	
 };
