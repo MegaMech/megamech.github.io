@@ -322,7 +322,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		width: 39px !important;
 	}
 	#arrow-image {
-		width: 20px;	
+		width: 20px !important;	
 	}
 	header {
 		display: none;
