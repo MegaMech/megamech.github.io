@@ -18,9 +18,9 @@
     <label>Name of student:</label>
     <br>
     <input type="text" name="entry.1984147461" id="entry.1984147461" style="width: 250px;" maxlength="80" onkeyup="textCounter(this,'msg3');"><span id="msg3" style="margin-left: 5px; color: red;"></span>
-    <br>
-    <label>Type of lesson:</label>
-    <select name="entry.682808226" id="entry.682808226">
+    <br><br>
+    <label>Type of lesson:</label><br>
+    <select name="entry.682808226" id="entry.682808226" onchange="inputDisplay(this, value);">
       <option value="piano">Piano</option>
       <option value="theoryHis">Music theory or music history</option>
       <option value="auralskills">Aural skills (sight singing)</option>
@@ -77,12 +77,27 @@
     <input type="submit" value="Submit" style="border: 2px solid white">
     <br><br><br>
   </form>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+  </script>
+
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
   $('#gform').prepend('Thank you for your inquiry! Alex will respond soon.');
   });
+  function inputDisplay(e, v) {
+      if (v == "piano") {
+        
+      }
+      if (v == "theoryHis") {
+        
+      }
+      if (v == "auralskills") {
+        
+      }
+  }
 </script>
 </div>
 </div>
