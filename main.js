@@ -88,10 +88,11 @@ function inquirySubmit() {
 	submit = document.getElementById("inquiry-form-submit-text");
 	form.style.opacity = "0";
 	text.style.opacity = "0";
-	//form.addEventListener('transitionend', () => form.remove());
-	//text.addEventListener('transitionend', () => text.remove());
+	form.addEventListener('transitionend', () => form.remove());
+	text.addEventListener('transitionend', () => text.remove());
 	submit.style.display = "block";
 	submit.style.opacity = "1";
+	
 	
 	
 }
