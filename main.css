@@ -229,8 +229,7 @@ a:visited {
 a:hover {
 	color: lightgray;
 }
-
-, textarea, select {
+input, textarea, select {
 	border-radius: 6px;
 	border: 1px white solid;
 	margin-top: 2px;
@@ -238,7 +237,7 @@ a:hover {
 	outline: none;
 	background-color: rgb(245, 245, 245);
 }
-form, #inquiry-form-text {
+form, #inquiry-form-text, #inquiry-form-submit-text {
 	transition: opacity 2s;
 }
 @media screen and (min-width: 768px) {
