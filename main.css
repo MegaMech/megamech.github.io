@@ -39,6 +39,7 @@ wrap {
 	background-image: url('images/steinway8.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position-y: -170px;
 }
 .lessons-wrapper {
 	padding-left: 52px;
