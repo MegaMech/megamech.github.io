@@ -45,7 +45,8 @@ wrap {
 	padding-top: 80px;
 	min-height: 85.3vh;
 	background-image: url('images/steinway11.png'), url('images/steinway9.png');
-	background-repeat: no-repeat;
+	background-repeat: no-repeat, no-repeat;
+	background-position-y: top, center;
 }
 .title, .title2 {
 	height: 100%;
