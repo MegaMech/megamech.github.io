@@ -302,6 +302,9 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		padding-top: 50px !important;
 		text-align: center;
 	}
+	textarea {
+		width: 100%;
+	}
 	.media-item iframe {
 		max-width: 100%;
 	}
