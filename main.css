@@ -229,13 +229,16 @@ a:visited {
 a:hover {
 	color: lightgray;
 }
-input, textarea {
+input, textarea, select {
 	border-radius: 6px;
 	border: 1px white solid;
 	margin-top: 2px;
 	font-size: 17px;
 	outline: none;
 	background-color: rgb(245, 245, 245);
+}
+form {
+	transition: opacity 2s;
 }
 @media screen and (min-width: 768px) {
 }
