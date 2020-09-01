@@ -83,8 +83,15 @@ function inputDisplay(e, v) {
 }
 inquirySubmit() {
 	form = document.getElementById("gform");
-	form.style.opacity = '0';
-	form.addEventListener('transitionend', () => target.remove());
+	text = document.getElementById("inquiry-form-text");
+	submit = document.getElementById("inquiry-form-submit-text");
+	form.style.opacity = "0";
+	text.style.opacity = "0";
+	form.addEventListener('transitionend', () => form.remove());
+	text.addEventListener('transitionend', () => text.remove());
+	submit.style.display = "block";
+	submit.style.opacity = "1";
+	
 	
 }
 
