@@ -283,6 +283,8 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		padding-left: 10px;
 		padding-right: 10px;
 		text-align: center;
+		background-image-size: contain;
+		background-image-position-y: 0px;
 	}
 	.media-item iframe {
 		max-width: 100%;
