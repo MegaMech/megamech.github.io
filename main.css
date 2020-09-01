@@ -294,6 +294,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		padding-top: 1px !important;
 		text-align: center;
 		background-size: contain, contain, contain;
+		background-position-y: top, center, bottom;
 	}
 	.lesson-form-wrapper {
 		padding-left: 15px;
