@@ -276,7 +276,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	}
 	#background1 {
 		background-size: contain !important;
-		min-height: 64vh !important; /* 46vh old */
+		min-height: 186px !important; /* 46vh old */
 		padding-left: 0px;
 	}
 	.music-wrapper {
@@ -313,7 +313,10 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		margin-left: 42% !important;
 	}
 	#arrow {
-		width: 60px !important;
+		width: 39px !important;
+	}
+	#arrow-image {
+		width: 20px;	
 	}
 	header {
 		display: none;
