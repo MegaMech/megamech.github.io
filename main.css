@@ -44,9 +44,9 @@ wrap {
 	padding-left: 52px;
 	padding-top: 80px;
 	min-height: 85.3vh;
-	background-image: url('images/steinway11.png'), url('images/steinway9.png');
-	background-repeat: no-repeat, no-repeat;
-	background-position-y: top, center;
+	background-image: url('images/steinway11.png'), url('images/steinway9.png'), url('images/steinway10.png');
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position-y: top, 960px, bottom;
 }
 .lesson-form-wrapper {
 	padding-left: 52px;
