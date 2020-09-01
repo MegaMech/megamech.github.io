@@ -35,7 +35,7 @@ wrap {
 .music-wrapper {
 	padding-left: 54px;
 	padding-top: 80px;
-	min-height: 85.3vh;
+	min-height: 100vh;
 	background-image: url('images/steinway8.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44,7 +44,7 @@ wrap {
 .lessons-wrapper {
 	padding-left: 52px;
 	padding-top: 80px;
-	min-height: 85.3vh;
+	min-height: 100vh;
 	background-image: url('images/steinway11.png'), url('images/steinway9.png'), url('images/steinway10.png');
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position-y: top, 960px, bottom;
@@ -52,7 +52,7 @@ wrap {
 .lesson-form-wrapper {
 	padding-left: 52px;
 	padding-top: 80px;
-	min-height: 85.3vh;
+	min-height: 100vh;
 	background-image: url('images/steinway12.png');
 	background-repeat: no-repeat, no-repeat;
 	background-position-y: top, center;
