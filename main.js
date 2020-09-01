@@ -56,7 +56,6 @@ function arrow() {
 }
 
 function textCounter(e, counter) {
-
 	limit = e.getAttribute("maxlength");
     	var countfield = document.getElementById(counter);
 	if (e.value.length >= limit - 15) {
@@ -64,6 +63,7 @@ function textCounter(e, counter) {
    	}
 	else {countfield.innerHTML = "";}
 }
+
 function inputDisplay(e, v) {
     if (v == "piano") {
         document.getElementById("piano-wrapper").style.display = "block";
@@ -81,14 +81,15 @@ function inputDisplay(e, v) {
         document.getElementById("auralskills-wrapper").style.display = "block";
     }
 }
+
 inquirySubmit() {
 	form = document.getElementById("gform");
 	text = document.getElementById("inquiry-form-text");
 	submit = document.getElementById("inquiry-form-submit-text");
 	form.style.opacity = "0";
 	text.style.opacity = "0";
-	form.addEventListener('transitionend', () => form.remove());
-	text.addEventListener('transitionend', () => text.remove());
+	//form.addEventListener('transitionend', () => form.remove());
+	//text.addEventListener('transitionend', () => text.remove());
 	submit.style.display = "block";
 	submit.style.opacity = "1";
 	
