@@ -82,7 +82,7 @@ function inputDisplay(e, v) {
     }
 }
 
-inquirySubmit() {
+function inquirySubmit() {
 	form = document.getElementById("gform");
 	text = document.getElementById("inquiry-form-text");
 	submit = document.getElementById("inquiry-form-submit-text");
