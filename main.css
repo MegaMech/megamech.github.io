@@ -286,7 +286,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	}
 	#background1 {
 		background-size: contain !important;
-		min-height: 354px !important; /* 46vh old */
+		min-height: 28vh !important;
 		padding-left: 0px;
 	}
 	.music-wrapper {
