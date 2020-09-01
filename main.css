@@ -46,7 +46,6 @@ wrap {
 	min-height: 85.3vh;
 	background-image: url('images/steinway11.png'), url('images/steinway9.png');
 	background-repeat: no-repeat;
-	background-size: cover;
 }
 .title, .title2 {
 	height: 100%;
