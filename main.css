@@ -40,6 +40,14 @@ wrap {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.lessons-wrapper {
+	padding-left: 52px;
+	padding-top: 80px;
+	min-height: 85.3vh;
+	background-image: url('images/steinway11.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .title, .title2 {
 	height: 100%;
 	width: 100%;
