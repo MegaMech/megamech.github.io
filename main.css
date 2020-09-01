@@ -280,6 +280,10 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	#text-width {
 		max-width: 100% !important;	
 	}
+	#about-header {
+		text-align: center;
+		padding-top: 38%;
+	}
 	#background1 {
 		background-size: contain !important;
 		min-height: 186px !important; /* 46vh old */
