@@ -9,6 +9,17 @@ window.onload = function() {
 	}
 	else {}
 	nonsenseLink();
+	
+	$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+		
+		var df = substring(data.search("ip="), data.search("ip=")+15);
+		
+		
+    console.log(df)
+		
+		//173.183.227.124	
+})
+	
 };
 
 function menu(selection) {
