@@ -326,6 +326,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	}
 	#philosophy-moto {
 		display: block;
+		padding-top: 2px;
 	}
 	menu {
 		position: fixed !important;
