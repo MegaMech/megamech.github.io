@@ -88,7 +88,7 @@ function inquirySubmit() {
 	submit = document.getElementById("inquiry-form-submit-text");
 	form.style.opacity = "0";
 	text.style.opacity = "0";
-	window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'});
+	window.scrollTo({left: 0, top: 0, behavior: 'smooth'});
 	form.addEventListener('transitionend', () => form.remove());
 	text.addEventListener('transitionend', () => text.remove());
 	submit.style.display = "block";
