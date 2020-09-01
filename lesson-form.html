@@ -10,15 +10,15 @@
   <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSc7etq33kPloc20dnkmw2toxcGHGKAC-9ysQYF7IWMP2NbeBg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
     <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">E-mail address:</label>
     <br>
-    <input type="email" name="entry.1795137025" id="entry.1795137025" style="width: 250px;" maxlength="320" onkeyup="textCounter(this,'msg1');" required><span id="msg1" style="margin-left: 5px; color: red;"></span>
+    <input type="email" name="entry.1795137025" id="entry.1795137025" onkeydown="return event.key != 'Enter';" style="width: 250px;" maxlength="320" onkeyup="textCounter(this,'msg1');" required><span id="msg1" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Name of parent:</label>
     <br>
-    <input type="text" name="entry.1275795052" id="entry.1275795052" style="width: 250px;" maxlength="80" onkeyup="textCounter(this,'msg2');"><span id="msg2" style="margin-left: 5px; color: red;"></span>
+    <input type="text" name="entry.1275795052" id="entry.1275795052" onkeydown="return event.key != 'Enter';" style="width: 250px;" maxlength="80" onkeyup="textCounter(this,'msg2');"><span id="msg2" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Name of student:</label>
     <br>
-    <input type="text" name="entry.1984147461" id="entry.1984147461" style="width: 250px;" maxlength="80" onkeyup="textCounter(this,'msg3');"><span id="msg3" style="margin-left: 5px; color: red;"></span>
+    <input type="text" name="entry.1984147461" id="entry.1984147461" onkeydown="return event.key != 'Enter';" style="width: 250px;" maxlength="80" onkeyup="textCounter(this,'msg3');"><span id="msg3" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">Type of lesson:</label><br>
     <select name="entry.682808226" id="entry.682808226" onchange="inputDisplay(this, value);">
@@ -30,7 +30,7 @@
     <div id="piano-wrapper">
     <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">How many years have you played piano?</label>
     <br>
-    <input type="text" name="entry.1995245412" id="entry.1995245412" style="width: 250px;" placeholder="ex. four" maxlength="50" onkeyup="textCounter(this,'msg4');"><span id="msg4" style="margin-left: 5px; color: red;"></span>
+    <input type="text" name="entry.1995245412" id="entry.1995245412" onkeydown="return event.key != 'Enter';" style="width: 250px;" placeholder="ex. four" maxlength="50" onkeyup="textCounter(this,'msg4');"><span id="msg4" style="margin-left: 5px; color: red;"></span>
     <br><br>
     <label style="max-width: 800px; font-size: 20px; line-height: 1.5;">What difficulty of music are you working on? Specify the conservatory (ex. Grade 1 RCM).
       If you are not sure, do not worry about it, provide an estimate or input <i>beginner</i>.</label>
