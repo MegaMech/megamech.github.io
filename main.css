@@ -280,8 +280,8 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		padding-left: 0px;
 	}
 	.music-wrapper {
-		padding-left: 5px;
-		padding-right: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
 		text-align: center;
 	}
 	.media-item iframe {
