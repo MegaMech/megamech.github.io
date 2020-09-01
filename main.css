@@ -272,6 +272,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	
 	#background-wrap {
 		background-size: contain !important;
+		background-position-y: top;
 		min-height: 57vh !important;
 	}
 	#background1 {
