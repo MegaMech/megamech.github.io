@@ -64,6 +64,23 @@ function textCounter(e, counter) {
    	}
 	else {countfield.innerHTML = "";}
 }
+function inputDisplay(e, v) {
+    if (v == "piano") {
+        document.getElementById("piano-wrapper").style.display = "block";
+        document.getElementById("theoryHis-wrapper").style.display = "none";
+        document.getElementById("auralskills-wrapper").style.display = "none";
+    }
+    if (v == "theoryHis") {
+        document.getElementById("piano-wrapper").style.display = "none";
+        document.getElementById("theoryHis-wrapper").style.display = "block";
+	document.getElementById("auralskills-wrapper").style.display = "none";
+    }
+    if (v == "auralskills") {
+        document.getElementById("piano-wrapper").style.display = "none";
+        document.getElementById("theoryHis-wrapper").style.display = "none";
+        document.getElementById("auralskills-wrapper").style.display = "block";
+    }
+}
 
 function nonsenseLink()
 {
