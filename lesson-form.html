@@ -84,23 +84,6 @@ $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
   $('#gform').prepend('Thank you for your inquiry! Alex will respond soon.');
   });
-  function inputDisplay(e, v) {
-      if (v == "piano") {
-          document.getElementById("piano-wrapper").style.display = "block";
-          document.getElementById("theoryHis-wrapper").style.display = "none";
-          document.getElementById("auralskills-wrapper").style.display = "none";
-      }
-      if (v == "theoryHis") {
-          document.getElementById("piano-wrapper").style.display = "none";
-          document.getElementById("theoryHis-wrapper").style.display = "block";
-          document.getElementById("auralskills-wrapper").style.display = "none";
-      }
-      if (v == "auralskills") {
-          document.getElementById("piano-wrapper").style.display = "none";
-          document.getElementById("theoryHis-wrapper").style.display = "none";
-          document.getElementById("auralskills-wrapper").style.display = "block";
-      }
-  }
 </script>
 </div>
 </div>
