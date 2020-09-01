@@ -55,6 +55,7 @@ wrap {
 	background-image: url('images/steinway12.png');
 	background-repeat: no-repeat, no-repeat;
 	background-position-y: top, center;
+	background-size: cover;
 }
 .title, .title2 {
 	height: 100%;
