@@ -33,7 +33,7 @@ wrap {
 	text-align: center;
 }
 .music-wrapper {
-	margin-left: 54px;
+	padding-left: 54px;
 	padding-top: 80px;
 	min-height: 85.3vh;
 	background-image: url('images/steinway8.png');
