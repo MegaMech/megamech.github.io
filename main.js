@@ -12,7 +12,7 @@ window.onload = function() {
 	
 	$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
 		
-		var df = substring(data.search("ip="), data.search("ip=")+15);
+		var df = data.substring(data.search("ip=")+2, data.search("ip=")+17);
 		
 		
     console.log(df)
