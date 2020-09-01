@@ -299,7 +299,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	.lesson-form-wrapper {
 		padding-left: 15px;
 		padding-right: 15px;
-		padding-top: 1px !important;
+		padding-top: 50px !important;
 		text-align: center;
 	}
 	.media-item iframe {
