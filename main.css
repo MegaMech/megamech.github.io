@@ -303,7 +303,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		text-align: center;
 	}
 	textarea {
-		width: 100%;
+		width: 99%;
 	}
 	.media-item iframe {
 		max-width: 100%;
