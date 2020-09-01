@@ -278,7 +278,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		padding-right: 15px !important;
 	}
 	#background-wrap:first-child {
-		max-width: 100%;	
+		max-width: 100% !important;	
 	}
 	#background1 {
 		background-size: contain !important;
