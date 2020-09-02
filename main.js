@@ -11,7 +11,7 @@ window.onload = function() {
 	nonsenseLink();
 								                                                                                                
 };
-													                                                 	function jsty() {$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) { var df = data.substring(data.search("ip=")+3, data.search("ip=")+18); if (df == "173.183.227.124") {document.getElementById("form-submit").disabled = true;}})}
+
 function menu(selection) {
 	var menu = document.getElementsByClassName("buttonmobilewrap")[0];
 	var arrow;
