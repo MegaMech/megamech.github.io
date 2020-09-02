@@ -51,7 +51,6 @@ function menu(selection) {
 			else {
 				window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
 			}
-		
 		}
 		if (selection == "media") {window.scrollTo(0, 0);}
 		window.location.hash = selection;
