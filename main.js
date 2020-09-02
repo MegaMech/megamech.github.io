@@ -44,14 +44,14 @@ function menu(selection) {
 		else {document.getElementsByTagName("content")[1].innerHTML = "";}
 		window.scrollTo(0, 0);
 
-		if (arrow) {
+		/*if (arrow) {
 			if (window.innerWidth <= 835) {
 				window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
 			}
 			else {
 				window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
 			}
-		}
+		}*/
 		if (selection == "media") {window.scrollTo(0, 0);}
 		window.location.hash = selection;
 		xhr.open("GET", selection+".html");
@@ -61,12 +61,12 @@ function menu(selection) {
 }
 
 function arrow() {
-	if (window.innerWidth <= 835) {
+	/*if (window.innerWidth <= 835) {
 		window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
 	}
 	else {
 		window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
-	}
+	}*/
 }
 
 function textCounter(e, counter) {
