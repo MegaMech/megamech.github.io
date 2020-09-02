@@ -62,10 +62,10 @@ function menu(selection) {
 
 function arrow() {
 	if (window.innerWidth <= 835) {
-		window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
+		window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'});
 	}
 	else {
-		window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
+		window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'});
 	}
 }
 
