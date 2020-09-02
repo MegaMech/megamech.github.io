@@ -25,7 +25,7 @@ function menu(selection) {
 		return true;
 	}
 	if (selection == "about") {
-		selection = "home"	
+		selection = "home";	
 		arrow = true;
 	}
 	menu.style.height = "0px";
