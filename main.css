@@ -276,6 +276,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		min-height: 57vh !important;
 		padding-left: 15px !important;
 		padding-right: 15px !important;
+		padding-top: 56.25%;
 	}
 	#text-width {
 		max-width: 100% !important;	
