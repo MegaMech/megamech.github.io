@@ -273,11 +273,9 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	#background-wrap {
 		background-size: contain !important;
 		background-position-y: top;
-		min-height: 0px;
-		height: 0px;
+		min-height: 57vh !important;
 		padding-left: 15px !important;
 		padding-right: 15px !important;
-		padding-bottom: 56.25%;
 	}
 	#text-width {
 		max-width: 100% !important;	
@@ -288,8 +286,10 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	}
 	#background1 {
 		background-size: contain !important;
-		min-height: 260px !important;
 		padding-left: 0px;
+		padding-bottom: 56.25%;
+		height: 0 !important;
+		min-height: 0 !important;
 	}
 	.music-wrapper {
 		padding-left: 15px;
