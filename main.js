@@ -1,5 +1,5 @@
+var submitted = false; // This line for lesson inquiry submission form.
 window.onload = function() {
-	submitted = false; // This line for lesson inquiry submission form.
 	if (window.location.hash == "") {
 		menu('home');
 	}
