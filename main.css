@@ -151,6 +151,7 @@ content {
 	-webkit-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
 	box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.75);
+	padding-bottom: 15px;
 }
 #arrow-image {
 	padding-top: 12px;
@@ -327,6 +328,7 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		width: 39px !important;
 		height: 70px !important;
 		font-size: 0px !important;
+		padding-bottom: 0px !important;
 	}
 	#arrow-image {
 		width: 20px !important;
