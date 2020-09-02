@@ -45,7 +45,7 @@ function menu(selection) {
 	window.scrollTo(0, 0);
 	if (arrow) {
 		if (window.innerWidth <= 835) {
-			window.scrollTo({left: 0, top: window.innerHeight / 2, behavior: 'smooth'}); arrow = false;
+			window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
 		}
 		else {
 			window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
@@ -60,7 +60,12 @@ function menu(selection) {
 }
 
 function arrow() {
-	window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'});
+	if (window.innerWidth <= 835) {
+		window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
+	}
+	else {
+		window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
+	}
 }
 
 function textCounter(e, counter) {
@@ -112,8 +117,8 @@ function nonsenseLink()
     var eidxf = "b";
     var cy = "o";
     var efsdjei = "n";
-    var idkje = "w"
-    var idffwec = "lt"
+    var idkje = "w";
+    var idffwec = "lt";
     var easi = "s";
     var edbidoe = "@";
     var la = "ma";
