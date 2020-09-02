@@ -273,7 +273,8 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 	#background-wrap {
 		background-size: contain !important;
 		background-position-y: top;
-		min-height: 57vh !important;
+		min-height: 0px;
+		height: 0px;
 		padding-left: 15px !important;
 		padding-right: 15px !important;
 		padding-bottom: 56.25%;
