@@ -106,9 +106,6 @@ function inquirySubmit() {
 	text.addEventListener('transitionend', () => text.remove());
 	submit.style.display = "block";
 	submit.style.opacity = "1";
-	
-	
-	
 }
 
 function nonsenseLink()
