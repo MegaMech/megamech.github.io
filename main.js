@@ -31,46 +31,43 @@ function menu(selection) {
 	menu.style.height = "0px";
 	var xhr = new XMLHttpRequest();
 	xhr.onload = function() {
-	a = this.responseXML;
-	try {
-		document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[0].innerHTML;
-	}
-	catch(e) {
-		console.log(e); menu(selection);
-	}
-	if (this.responseXML.getElementsByTagName("body")[0].childNodes[2] != null) {
-		document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
-	}
-	else {document.getElementsByTagName("content")[1].innerHTML = "";}
-	window.scrollTo(0, 0);
-	
-		if (arrow) {window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;}
-	/*
-	if (arrow) {
-		if (window.innerWidth <= 835) {
-			window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
+		a = this.responseXML;
+		try {
+			document.getElementsByTagName("content")[0].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[0].innerHTML;
 		}
-		else {
-			window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
+		catch(e) {
+			console.log(e); menu(selection);
 		}
+		if (this.responseXML.getElementsByTagName("body")[0].childNodes[2] != null) {
+			document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
+		}
+		else {document.getElementsByTagName("content")[1].innerHTML = "";}
+		window.scrollTo(0, 0);
+
+		if (arrow) {
+			if (window.innerWidth <= 835) {
+				window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
+			}
+			else {
+				window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
+			}
 		
-	}
-	*/
-	if (selection == "media") {window.scrollTo(0, 0);}
-	window.location.hash = selection;
-	xhr.open("GET", selection+".html");
-	xhr.responseType = "document";
-	xhr.send();
+		}
+		if (selection == "media") {window.scrollTo(0, 0);}
+		window.location.hash = selection;
+		xhr.open("GET", selection+".html");
+		xhr.responseType = "document";
+		xhr.send();
+	};
 }
 
 function arrow() {
-	/*
 	if (window.innerWidth <= 835) {
 		window.scrollTo({left: 0, top: (window.innerHeight / 2), behavior: 'smooth'}); arrow = false;
 	}
 	else {
 		window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
-	}*/
+	}
 }
 
 function textCounter(e, counter) {
