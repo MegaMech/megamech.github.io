@@ -43,7 +43,14 @@ function menu(selection) {
 	}
 	else {document.getElementsByTagName("content")[1].innerHTML = "";}
 	window.scrollTo(0, 0);
-	if (arrow) {window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;}
+	if (arrow) {
+		if (window.innerWidth <= 835) {
+			window.scrollTo({left: 0, top: window.innerHeight / 2, behavior: 'smooth'}); arrow = false;}
+		}
+		else {
+			window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;}
+		}
+		
 	}
 	if (selection == "media") {window.scrollTo(0, 0);}
 	window.location.hash = selection;
