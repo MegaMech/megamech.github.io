@@ -45,10 +45,10 @@ function menu(selection) {
 	window.scrollTo(0, 0);
 	if (arrow) {
 		if (window.innerWidth <= 835) {
-			window.scrollTo({left: 0, top: window.innerHeight / 2, behavior: 'smooth'}); arrow = false;}
+			window.scrollTo({left: 0, top: window.innerHeight / 2, behavior: 'smooth'}); arrow = false;
 		}
 		else {
-			window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;}
+			window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
 		}
 		
 	}
