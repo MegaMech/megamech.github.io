@@ -9,7 +9,6 @@ window.onload = function() {
 	}
 	else {}
 	nonsenseLink();
-								                                                                                                
 };
 
 function menu(selection) {
