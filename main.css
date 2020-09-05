@@ -285,13 +285,14 @@ form, #inquiry-form-text, #inquiry-form-submit-text {
 		min-height: 57vh !important;
 		padding-left: 15px !important;
 		padding-right: 15px !important;
+		background-image: none !important;
 	}
 	#text-width {
 		max-width: 100% !important;	
 	}
 	#about-header {
 		text-align: center;
-		padding-top: 17%;
+		padding-top: 0%;
 	}
 	#background1 {
 		background-size: contain !important;
