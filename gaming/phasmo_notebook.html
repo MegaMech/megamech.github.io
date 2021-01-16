@@ -1,0 +1,308 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+</head> 
+<style>
+body {
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: lightgrey;
+}
+.main {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 900px;
+    padding-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forma {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 250px;
+}
+select {
+    height: 50px;
+    font-size: 22px;
+    width: 250px;
+    border-radius: 5px;
+}
+.texta {
+    border-radius: 5px;
+    font-size: 22px;
+
+
+}
+#g1, #g2, #g3 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#n1, #n2, #n3 {
+    font-size: 22px;
+
+}
+</style>
+<body>
+<div class="main">
+<h2>Ghost Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Objectives</h2>
+<input class="texta" type="text"></input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="texta" style="width: 350px" type="text"></input>
+<h2 for="Evidence">Evidence:</h2>
+<div class="forma">
+<select onchange="RemoveOptions(this);" id="sel">
+  <option value="emf">EMF Level 5</option>
+  <option value="spirit_box">Spirit Box</option>
+  <option value="fingerprints">Fingerprints</option>
+  <option value="ghost_orb">Ghost Orb</option>
+  <option value="ghost_writing">Ghost Writing</option>
+  <option value="freezing_temperatures">Freezing Temperatures</option>
+</select>
+<br>
+<br>
+<div id="box1"> 
+<select onchange="FindEvidence(this);" id="sele">
+  <option value="spirit_box">Spirit Box</option>
+  <option value="fingerprints">Fingerprints</option>
+  <option value="ghost_orb">Ghost Orb</option>
+  <option value="ghost_writing">Ghost Writing</option>
+  <option value="freezing_temperatures">Freezing Temperatures</option>
+</select>
+</div>
+<div id="box2" style="display: none;">
+<select onchange="FindEvidence(this);" id="sele">
+  <option value="emf">EMF Level 5</option>
+  <option value="fingerprints">Fingerprints</option>
+  <option value="ghost_orb">Ghost Orb</option>
+  <option value="ghost_writing">Ghost Writing</option>
+  <option value="freezing_temperatures">Freezing Temperatures</option>
+</select>
+</div>
+<div id="box3" style="display: none;">
+<select onchange="FindEvidence(this);" id="sele">
+  <option value="emf">EMF Level 5</option>
+  <option value="spirit_box">Spirit Box</option>
+  <option value="ghost_orb">Ghost Orb</option>
+  <option value="ghost_writing">Ghost Writing</option>
+  <option value="freezing_temperatures">Freezing Temperatures</option>
+</select>
+</div>
+<div id="box4" style="display: none;">
+<select onchange="FindEvidence(this);" id="sele">
+  <option value="emf">EMF Level 5</option>
+  <option value="spirit_box">Spirit Box</option>
+  <option value="fingerprints">Fingerprints</option>
+  <option value="ghost_writing">Ghost Writing</option>
+  <option value="freezing_temperatures">Freezing Temperatures</option>
+</select>
+</div>
+<div id="box5" style="display: none;">
+<select onchange="FindEvidence(this);" id="sele">
+  <option value="emf">EMF Level 5</option>
+  <option value="spirit_box">Spirit Box</option>
+  <option value="fingerprints">Fingerprints</option>
+  <option value="ghost_orb">Ghost Orb</option>
+  <option value="freezing_temperatures">Freezing Temperatures</option>
+</select>
+</div>
+<div id="box6" style="display: none;">
+<select onchange="FindEvidence(this);" id="sele">
+  <option value="emf">EMF Level 5</option>
+  <option value="spirit_box">Spirit Box</option>
+  <option value="fingerprints">Fingerprints</option>
+  <option value="ghost_orb">Ghost Orb</option>
+  <option value="ghost_writing">Ghost Writing</option>
+</select>
+</div>
+</div>
+<br>
+<br>
+<div style="height: 400px; width: 900px;">
+<span id="g1"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="n1"></span>
+<h2 id="ev1"></h2>
+<span id="g2"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="n2"></span>
+<h2 id="ev2"></h2>
+<span id="g3"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="n3"></span>
+<h2 id="ev3"></h2>
+<span id="g4"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="n4"></span>
+<h2 id="ev4"></h2>
+</div>
+</div>
+</body>
+
+<script>
+var a;
+window.onload = function(){
+    a = document.getElementById("sel").value;
+    RemoveOptions("First");
+};
+
+    function FindEvidence(e) {
+        var b;
+        if (e === "First") {
+            b = document.getElementById("sele").value;
+        }
+        else {
+            b = e.value;
+        }
+        var g1 = document.getElementById("g1");
+        var ev1 = document.getElementById("ev1");
+        var g2 = document.getElementById("g2");
+        var ev2 = document.getElementById("ev2");
+        var g3 = document.getElementById("g3");
+        var ev3 = document.getElementById("ev3");
+        var g4 = document.getElementById("g4");
+        var ev4 = document.getElementById("ev4");
+
+        g1.innerHTML = "";  ev1.innerHTML = "";
+        g2.innerHTML = "";  ev2.innerHTML = "";
+        g3.innerHTML = "";  ev3.innerHTML = "";
+        g4.innerHTML = "";  ev4.innerHTML = "";
+        document.getElementById("n1").innerHTML = "";
+        document.getElementById("n2").innerHTML = "";
+        document.getElementById("n3").innerHTML = "";
+        document.getElementById("n4").innerHTML = "";
+
+        if (a == "emf" && b == "spirit_box") {g1.innerHTML = "Jinn"; ev1.innerHTML = "Ghost Orb"; DT(0, "jinn"); g2.innerHTML = "Oni"; ev2.innerHTML = "Ghost Writing"; DT(1, "oni");}
+        else if (a == "emf" && b == "fingerprints") {g1.innerHTML = "Banshee"; ev1.innerHTML = "Freezing Temperatures"; DT(0, "banshee"); g2.innerHTML = "Revenant"; ev2.innerHTML = "Ghost Writing"; DT(1, "revenant");}
+        else if (a == "emf" && b == "ghost_orb") {g1.innerHTML = "Jinn"; ev1.innerHTML = "Spirit Box"; DT(0, "jinn"); g2.innerHTML = "Shade"; ev2.innerHTML = "Ghost Writing"; DT(1, "shade"); g3.innerHTML = "Phantom"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "phantom");}
+        else if (a == "emf" && b == "ghost_writing") {g1.innerHTML = "Oni"; ev1.innerHTML = "Spirit Box"; DT(0, "oni"); g2.innerHTML = "Revenant"; ev2.innerHTML = "Fingerprints"; DT(1, "revenant"); g3.innerHTML = "Shade"; ev3.innerHTML = "Ghost Orb"; DT(2, "shade");}
+        else if (a == "emf" && b == "freezing_temperatures") {g1.innerHTML = "Banshee"; ev1.innerHTML = "Fingerprints"; DT(0, "banshee"); g2.innerHTML = "Phantom"; ev2.innerHTML = "Ghost Orb"; DT(1, "phantom");}
+        
+        else if (a == "spirit_box" && b == "emf") {g1.innerHTML = "Jinn"; ev1.innerHTML = "Ghost Orb"; DT(0, "jinn"); g2.innerHTML = "Oni"; ev2.innerHTML = "Ghost Writing"; DT(1, "oni");}
+        else if (a == "spirit_box" && b == "fingerprints") {g1.innerHTML = "Poltergeist"; ev1.innerHTML = "Ghost Orb"; DT(0, "poltergeist"); g2.innerHTML = "Spirit"; ev2.innerHTML = "Ghost Writing"; DT(1, "spirit"); g3.innerHTML = "Wraith"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "wraith");}
+        else if (a == "spirit_box" && b == "ghost_orb") {g1.innerHTML = "Jinn"; ev1.innerHTML = "EMF Level 5"; DT(0, "jinn"); g2.innerHTML = "Poltergeist"; ev2.innerHTML = "Fingerprints"; DT(1, "poltergeist"); g3.innerHTML = "Mare"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "mare");}
+        else if (a == "spirit_box" && b == "ghost_writing") {g1.innerHTML = "Oni"; ev1.innerHTML = "EMF Level 5"; DT(0, "oni"); g2.innerHTML = "Spirit"; ev2.innerHTML = "Fingerprints"; DT(1, "spirit"); g3.innerHTML = "Demon"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "demon");}
+        else if (a == "spirit_box" && b == "freezing_temperatures") {g1.innerHTML = "Wraith"; ev1.innerHTML = "Fingerprints"; DT(0, "wraith"); g2.innerHTML = "Mare"; ev2.innerHTML = "Ghost Orb"; DT(1, "mare"); g3.innerHTML = "Demon"; ev3.innerHTML = "Ghost Writing"; DT(2, "demon");}
+        
+        else if (a == "fingerprints" && b == "emf") {g1.innerHTML = "Revenant"; ev1.innerHTML = "Ghost Writing"; DT(0, "revenant"); g2.innerHTML = "Banshee"; ev2.innerHTML = "Freezing Temperatures"; DT(1, "banshee");}
+        else if (a == "fingerprints" && b == "spirit_box") {g1.innerHTML = "Poltergeist"; ev1.innerHTML = "Ghost Orb"; DT(0, "poltergeist"); g2.innerHTML = "Spirit"; ev2.innerHTML = "Ghost Writing"; DT(1, "spirit"); g3.innerHTML = "Wraith"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "wraith");}
+        else if (a == "fingerprints" && b == "ghost_orb") {g1.innerHTML = "Poltergeist"; ev1.innerHTML = "Spirit Box"; DT(0, "poltergeist");}
+        else if (a == "fingerprints" && b == "ghost_writing") {g1.innerHTML = "Revenant"; ev1.innerHTML = "EMF Level 5"; DT(0, "revenant"); g2.innerHTML = "Spirit"; ev2.innerHTML = "Spirit Box"; DT(1, "spirit");}
+        else if (a == "fingerprints" && b == "freezing_temperatures") {g1.innerHTML = "Banshee"; ev1.innerHTML = "EMF Level 5"; DT(0, "banshee"); g2.innerHTML = "Wraith"; ev2.innerHTML = "Spirit Box"; DT(1, "wraith");}
+        
+        else if (a == "ghost_orb" && b == "emf") {g1.innerHTML = "Jinn"; ev1.innerHTML = "Spirit Box"; DT(0, "jinn"); g2.innerHTML = "Shade"; ev2.innerHTML = "Ghost Writing"; DT(1, "shade"); g3.innerHTML = "Phantom"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "phantom");}
+        else if (a == "ghost_orb" && b == "spirit_box") {g1.innerHTML = "Jinn"; ev1.innerHTML = "EMF Level 5"; DT(0, "jinn"); g2.innerHTML = "Poltergeist"; ev2.innerHTML = "Fingerprints"; DT(1, "poltergeist"); g3.innerHTML = "Mare"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "mare");}
+        else if (a == "ghost_orb" && b == "fingerprints") {g1.innerHTML = "Poltergeist"; ev1.innerHTML = "Spirit Box"; DT(0, "poltergeist");}
+        else if (a == "ghost_orb" && b == "ghost_writing") {g1.innerHTML = "Shade"; ev1.innerHTML = "EMF Level 5"; DT(0, "shade"); g2.innerHTML = "Yurei"; ev2.innerHTML = "Freezing Temperatures"; DT(1, "yurei");}
+        else if (a == "ghost_orb" && b == "freezing_temperatures") {g1.innerHTML = "Phantom"; ev1.innerHTML = "EMF Level 5"; DT(0, "phantom"); g2.innerHTML = "Mare"; ev2.innerHTML = "Spirit Box"; DT(1, "mare"); g3.innerHTML = "Yurei"; ev3.innerHTML = "Ghost Writing"; DT(2, "yurei");}
+        
+        else if (a == "ghost_writing" && b == "emf") {g1.innerHTML = "Oni"; ev1.innerHTML = "Spirit Box"; DT(0, "oni"); g2.innerHTML = "Revenant"; ev2.innerHTML = "Fingerprints"; DT(1, "revenant"); g3.innerHTML = "Shade"; ev3.innerHTML = "Ghost Orb"; DT(2, "shade");}
+        else if (a == "ghost_writing" && b == "spirit_box") {g1.innerHTML = "Oni"; ev1.innerHTML = "EMF Level 5"; DT(0, "oni"); g2.innerHTML = "Spirit"; ev2.innerHTML = "Fingerprints"; DT(1, "spirit"); g3.innerHTML = "Demon"; ev3.innerHTML = "Freezing Temperatures"; DT(2, "demon");}
+        else if (a == "ghost_writing" && b == "fingerprints") {g1.innerHTML = "Revenant"; ev1.innerHTML = "EMF Level 5"; DT(0, "revenant"); g2.innerHTML = "Spirit"; ev2.innerHTML = "Spirit Box"; DT(1, "spirit");}
+        else if (a == "ghost_writing" && b == "ghost_orb") {g1.innerHTML = "Shade"; ev1.innerHTML = "EMF Level 5"; DT(0, "shade"); g2.innerHTML = "Yurei"; ev2.innerHTML = "Freezing Temperatures"; DT(1, "yurei");}
+        else if (a == "ghost_writing" && b == "freezing_temperatures") {g1.innerHTML = "Demon"; ev1.innerHTML = "Spirit Box"; g2.innerHTML = "Yurei"; ev2.innerHTML = "Ghost Orb";}
+        
+        else if (a == "freezing_temperatures" && b == "emf") {g1.innerHTML = "Banshee"; ev1.innerHTML = "Fingerprints"; DT(0, "banshee"); g2.innerHTML = "Phantom"; ev2.innerHTML = "Ghost Orb"; DT(1, "phantom");}
+        else if (a == "freezing_temperatures" && b == "spirit_box") {g1.innerHTML = "Wraith"; ev1.innerHTML = "Fingerprints"; DT(0, "wraith"); g2.innerHTML = "Mare"; ev2.innerHTML = "Ghost Orb"; DT(1, "mare"); g3.innerHTML = "Demon"; ev3.innerHTML = "Ghost Writing"; DT(2, "demon");}
+        else if (a == "freezing_temperatures" && b == "fingerprints") {g1.innerHTML = "Banshee"; ev1.innerHTML = "EMF Level 5"; DT(0, "banshee"); g2.innerHTML = "Wraith"; ev2.innerHTML = "Spirit Box"; DT(1, "wraith");}
+        else if (a == "freezing_temperatures" && b == "ghost_orb") {g1.innerHTML = "Phantom"; ev1.innerHTML = "EMF Level 5"; DT(0, "phantom"); g2.innerHTML = "Mare"; ev2.innerHTML = "Spirit Box"; DT(1, "mare"); g3.innerHTML = "Yurei"; ev3.innerHTML = "Ghost Writing"; DT(2, "yurei");}
+        else if (a == "freezing_temperatures" && b == "ghost_writing") {g1.innerHTML = "Demon"; ev1.innerHTML = "Spirit Box"; DT(0, "demon"); g2.innerHTML = "Yurei"; ev2.innerHTML = "Ghost Orb"; DT(1, "yurei");}
+        
+        else {
+            g1.innerHTML = "";  ev1.innerHTML = "";
+            g2.innerHTML = "";  ev2.innerHTML = "";
+            g3.innerHTML = "";  ev3.innerHTML = "";
+            g4.innerHTML = "";  ev4.innerHTML = "";
+        }
+        
+    }    
+    var sele = document.getElementById("sele")
+    function RemoveOptions(e) {
+        if (e == "First") {
+            document.getElementById("box1").style.display = "block";
+            document.getElementById("box2").style.display = "none";
+            document.getElementById("box3").style.display = "none";
+            document.getElementById("box4").style.display = "none";
+            document.getElementById("box5").style.display = "none";
+            document.getElementById("box6").style.display = "none";
+            e.value = "emf";
+        }
+        else if (e.value == "emf") {
+            document.getElementById("box1").style.display = "block";
+            document.getElementById("box2").style.display = "none";
+            document.getElementById("box3").style.display = "none";
+            document.getElementById("box4").style.display = "none";
+            document.getElementById("box5").style.display = "none";
+            document.getElementById("box6").style.display = "none";
+        }
+        else if (e.value == "spirit_box") {
+            document.getElementById("box2").style.display = "block";
+            document.getElementById("box1").style.display = "none";
+            document.getElementById("box3").style.display = "none";
+            document.getElementById("box4").style.display = "none";
+            document.getElementById("box5").style.display = "none";
+            document.getElementById("box6").style.display = "none";
+        }
+        else if (e.value == "fingerprints") {
+            document.getElementById("box3").style.display = "block";
+            document.getElementById("box1").style.display = "none";
+            document.getElementById("box2").style.display = "none";
+            document.getElementById("box4").style.display = "none";
+            document.getElementById("box5").style.display = "none";
+            document.getElementById("box6").style.display = "none";
+        }
+        else if (e.value == "ghost_orb") {
+            document.getElementById("box4").style.display = "block";
+            document.getElementById("box1").style.display = "none";
+            document.getElementById("box2").style.display = "none";
+            document.getElementById("box3").style.display = "none";
+            document.getElementById("box5").style.display = "none";
+            document.getElementById("box6").style.display = "none";
+        }
+        else if (e.value == "ghost_writing") {
+            document.getElementById("box5").style.display = "block";
+            document.getElementById("box1").style.display = "none";
+            document.getElementById("box2").style.display = "none";
+            document.getElementById("box3").style.display = "none";
+            document.getElementById("box4").style.display = "none";
+            document.getElementById("box6").style.display = "none";
+        }
+        else if (e.value == "freezing_temperatures") {
+            document.getElementById("box6").style.display = "block";
+            document.getElementById("box1").style.display = "none";
+            document.getElementById("box2").style.display = "none";
+            document.getElementById("box3").style.display = "none";
+            document.getElementById("box4").style.display = "none";
+            document.getElementById("box5").style.display = "none";
+        }
+        if (e == "First") {
+            a = "emf";
+        }
+        else {
+            a = e.value;
+        }
+        FindEvidence("First");
+    }
+    function DT(pos, g) {
+    
+        switch(pos) {
+        
+            case 0:
+                update = document.getElementById("n1");
+                break;
+            case 1:
+                update = document.getElementById("n2");
+                break;
+            case 2:
+                update = document.getElementById("n3");
+                break;
+            case 3:
+                update = document.getElementById("n4");
+                break;
+        
+        }
+        if (g == "spirit") {update.innerHTML = "Weak to smudge sticks"}
+        if (g == "wraith") {update.innerHTML = "Weak to salt. Can fly and travel through walls."}
+        if (g == "phantom") {update.innerHTML = "Looking at phantom drops sanity. Take photo to make it disappear"}
+        if (g == "poltergeist") {update.innerHTML = "Throws objects; ineffective in empty room."}
+        if (g == "banshee") {update.innerHTML = "Targets a person, fears Crucifix."}
+        if (g == "jinn") {update.innerHTML = "If target far, travels fast. Turn off power."}
+        if (g == "mare") {update.innerHTML = "Turn on the lights."}
+        if (g == "revenant") {update.innerHTML = "Travels quickly until players are hidden."}
+        if (g == "shade") {update.innerHTML = "Hard to find; will not hunt if multiple people nearby."}
+        if (g == "demon") {update.innerHTML = "Attacks often. Ouija will not lower sanity on good question."}
+        if (g == "yurei") {update.innerHTML = "Lose sanity. Smudge the room."}
+        if (g == "oni") {update.innerHTML = "Moves objects. Active when people are nearby. Doing things = easy to find."}
+    }
+</script>
+</html>
