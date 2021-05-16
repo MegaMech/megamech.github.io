@@ -41,22 +41,21 @@ function menu(selection) {
 			document.getElementsByTagName("content")[1].innerHTML = this.responseXML.getElementsByTagName("body")[0].childNodes[2].innerHTML;
 		}
 		else {document.getElementsByTagName("content")[1].innerHTML = "";}
-		};
-		window.scrollTo(0, 0);
-
 		if (arrow) {
-			if (window.innerWidth <= 835) {
-				window.scrollTo({left: 0, top: (window.innerHeight / 1.5), behavior: 'smooth'}); arrow = false;
-			}
-			else {
-				window.scrollTo({left: 0, top: window.innerHeight, behavior: 'smooth'}); arrow = false;
-			}
+			let aboutBoundingClientRect = document.getElementById('about-header').getBoundingClientRect();
+			let menuBoundingClientRect = document.getElementsByTagName('menu')[0].getBoundingClientRect();
+			let padding = 15;
+			window.scrollTo({left: 0, top: aboutBoundingClientRect.top - menuBoundingClientRect.height - padding, behavior: 'smooth'});
+			arrow = false;
 		}
-		if (selection == "media") {window.scrollTo(0, 0);}
-		window.location.hash = selection;
-		xhr.open("GET", selection+".html");
-		xhr.responseType = "document";
-		xhr.send();
+	};
+	window.scrollTo(0, 0);
+
+	if (selection == "media") {window.scrollTo(0, 0);}
+	window.location.hash = selection;
+	xhr.open("GET", selection+".html");
+	xhr.responseType = "document";
+	xhr.send();
 }
 
 function arrow() {
