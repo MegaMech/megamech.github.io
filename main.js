@@ -71,9 +71,9 @@ function textCounter(e, counter) {
 	limit = e.getAttribute("maxlength");
     	var countfield = document.getElementById(counter);
 	if (e.value.length >= limit - 15) {
-      		countfield.innerHTML = "..." + (limit - e.value.length);
+      		countfield.innerText = "..." + (limit - e.value.length);
    	}
-	else {countfield.innerHTML = "";}
+	else {countfield.innerText = "";}
 }
 
 function inputDisplay(e, v) {
@@ -130,6 +130,6 @@ function nonsenseLink()
     var jhf = "r";
 
     document.getElementsByClassName("nonsenseLink")[0].href = la+ks+idffwec+cy+":"+ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+idkje+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;
-    document.getElementsByClassName("nonsenseLink")[0].innerHTML = ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+idkje+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;
+    document.getElementsByClassName("nonsenseLink")[0].innerText = ks+efsdjei+difjwof+goeh+ks+jhf+ks+ao+easi+edbidoe+iosq+ao+yhlkg+idkje+ks+ohd+easi+cy+jhf+dgls+yfed+mzjn;
 }
 
